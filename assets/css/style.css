@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100, 200, 300, 400, 500 &display=swap');
+
+/* ------------------------------------------- Go Logo */
+.go-logo {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+/* ------------------------------------------- Navigation List Links */
+.nav-links{
+    font-family: montserrat, sans-serif;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 50%;
+}
+
+a {
+    color: #df6530;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: #0073af;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #2a5490;
+    text-decoration: none; 
+}
+
