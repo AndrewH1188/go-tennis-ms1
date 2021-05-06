@@ -3,17 +3,20 @@
 /* ------------------------------------------- Go Logo */
 .go-logo {
     position: absolute;
-    left: 10px;
+    margin-left: 15px;
     top: 20px;
+    margin-right: auto;
 }
 
 /* ------------------------------------------- Navigation List Links */
 
 .nav-links{
     font-family: Montserrat, sans-serif;
-    display: inline-block;
     list-style-type: none;
-    margin-left: 50%;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 11pt;
 }
 
 a {
@@ -22,13 +25,37 @@ a {
 }
 
 
-a:active {
-    color: #0073af;
-    text-decoration: none; 
-}
-
 a:hover {
     color: #2a5490;
     text-decoration: none; 
 }
 
+.active {
+    color: #0073af;
+    text-decoration: none; 
+}
+
+
+
+
+/* ------------------------------------------- Footer */
+
+.hr-line {
+    color: #bac1d0;
+    border-width: 1.5px;
+}
+
+.social-media {
+display: inline-block;
+color:#bac1d0;
+vertical-align: center;
+}
+    
+    
+    
+    
+ /*   color: #bac1d0
+    text-decoration: none; 
+    position: center;
+}
+*/
