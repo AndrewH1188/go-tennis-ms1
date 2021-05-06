@@ -46,14 +46,36 @@ a:hover {
 }
 
 .social-media {
-display: inline-block;
-color:#bac1d0;
-vertical-align: center;
+    display: inline-block;
+    color:#bac1d0;
+    text-align: center;
 }
     
+.supporting-logos {
+    display: inline-block;
+    margin-right: 15px;
+
+}
     
+.support {
+    text-align: left;
+    color: #2a5490;
+
+}
     
-    
+
+.sponsors {
+    text-align: left;
+    color: #2a5490;
+    margin-left: 15px;
+}
+
+.sponsor-logos {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
  /*   color: #bac1d0
     text-decoration: none; 
     position: center;
