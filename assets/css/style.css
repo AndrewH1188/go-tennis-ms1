@@ -19,6 +19,8 @@
     font-size: 11pt;
 }
 
+
+
 a {
     color: #df6530;
     text-decoration: none;
@@ -36,6 +38,54 @@ a:hover {
 }
 
 
+/* ------------------------------------------- Home Hero Image */
+
+.home-hero {
+position: relative;
+max-width: 100%;
+width: 1550px;
+padding: 0;
+
+}
+
+
+/* ------------------------------------------- Home Welcome Box */
+
+#blue-box { 
+  background: #2a5490;
+  position: relative;
+  max-width: 100%;
+  left: -15px;
+  padding: 0;
+  margin: 0;
+}
+
+.welcome { 
+font-family: Montserrat;
+font-weight: 500;
+float: right;
+position: absolute;
+top: 230px;
+right: 32px;
+width: 350px;
+height: 10px;
+text-align: center;
+color: #fff; 
+}
+
+
+.tips { 
+font-family: Montserrat;
+font-weight: 400;
+float: right;
+position: absolute;
+top: 330px;
+right: 66px;
+max-width: 270px;
+height: 10px;
+text-align: center;  
+color: #fff;
+}
 
 
 /* ------------------------------------------- Footer */
@@ -45,15 +95,36 @@ a:hover {
     border-width: 1.5px;
 }
 
+
+.sponsored-by {
+    text-align: left;
+    color: #2a5490;
+    margin-right: 2px;
+}
+
+.sponsor-logos {
+    display: inline-block;
+    margin-left: 17px;
+}
+
+
+
 .social-media {
     display: inline-block;
-    color:#bac1d0;
-    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+   
+    
+}
+
+#text-center {
+    float: center;
 }
     
 .supporting-logos {
-    display: inline-block;
     margin-right: 15px;
+    float: right;
 
 }
     
@@ -64,16 +135,7 @@ a:hover {
 }
     
 
-.sponsors {
-    text-align: left;
-    color: #2a5490;
-    margin-left: 15px;
-}
 
-.sponsor-logos {
-    display: inline-block;
-    margin-right: 15px;
-}
 
 
  /*   color: #bac1d0
