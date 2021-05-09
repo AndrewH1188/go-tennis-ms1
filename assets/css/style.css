@@ -2,7 +2,7 @@
 
 /* ------------------------------------------- Go Logo */
 .go-logo {
-    position: absolute;
+    position: relative;
     margin-left: 15px;
     top: 20px;
     margin-right: auto;
@@ -13,10 +13,11 @@
 .nav-links{
     font-family: Montserrat, sans-serif;
     list-style-type: none;
-    text-align: right;
+    /*text-align: right;
     margin-right: 15px;
-    margin-top: 15px;
+    margin-top: 15px;*/
     font-size: 11pt;
+   
 }
 
 
@@ -35,56 +36,71 @@ a:hover {
 .active {
     color: #0073af;
     text-decoration: none; 
-}
+} 
 
 
 /* ------------------------------------------- Home Hero Image */
 
 .home-hero {
-position: relative;
-max-width: 100%;
-width: 1550px;
-padding: 0;
-
+    position: relative;
+    max-width: 115%;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 
 /* ------------------------------------------- Home Welcome Box */
 
 #blue-box { 
-  background: #2a5490;
-  position: relative;
-  max-width: 100%;
-  left: -15px;
-  padding: 0;
-  margin: 0;
+    position: relative;
+    /*left: -15px;*/
+    padding: 0;
+    margin: 0;
+    background: #2a5490;
+  
 }
 
 .welcome { 
-font-family: Montserrat;
-font-weight: 500;
-float: right;
-position: absolute;
-top: 230px;
-right: 32px;
-width: 350px;
-height: 10px;
-text-align: center;
-color: #fff; 
+    font-family: Montserrat;
+    font-weight: 400;
+    float: right;
+    position: relative;
+    max-width: fit-content;
+    max-height: fit-content;
+    /*margin-top: 55%;
+    margin-right: 10%;
+    margin-left: 10%;
+    top: 220px;
+    right: 32px;
+    width: 350px;*/
+    height: auto; 
+    width: auto;
+    text-align: center;
+    color: #fff; 
 }
 
 
+
+
 .tips { 
-font-family: Montserrat;
-font-weight: 400;
-float: right;
-position: absolute;
-top: 330px;
-right: 66px;
-max-width: 270px;
-height: 10px;
-text-align: center;  
-color: #fff;
+    font-family: Montserrat;
+    font-weight: 300;
+    float: right;
+    position: relative;
+    /*margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    top: 320px;
+    right: 66px; 
+    max-width: 270px;*/
+    max-width: fit-content;
+    max-height: fit-content;
+    height: auto;
+    width: auto;
+    text-align: center;  
+    color: #fff;
 }
 
 
@@ -107,15 +123,16 @@ color: #fff;
     margin-left: 17px;
 }
 
+.connect {
+    text-align: center;
+    color: #2a5490;
+}
 
 
 .social-media {
     display: inline-block;
     margin-right: 15%;
     margin-left: 15%;
-    
-   
-    
 }
 
 #text-center {
@@ -131,7 +148,6 @@ color: #fff;
 .support {
     text-align: left;
     color: #2a5490;
-
 }
     
 
@@ -142,4 +158,16 @@ color: #fff;
     text-decoration: none; 
     position: center;
 }
+
+
+
+
+/* ------------------------------------------- Media Queries */
+
+    /* @media only screen and (max-width: 600px) {
+  {
+    
+  }
+}
+
 */

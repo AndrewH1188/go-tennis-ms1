@@ -15,23 +15,45 @@
            <a class="go-logo" href="index.html"> 
                <img src="assets/images/go-logo.svg" height="70px" width="250px" 
                alt="Go Tennis System - The same game, just easier"></a>
-   
-    <!-- To style the nav links like the footer icons I will need to do the following: <li class="list-inline-item>-->
+    
 
-               <ul class="nav-links">
+    <!-- I worked with Jo from Code Institute to enable the menu to toggle-->
+
+    <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+    <span class="text-muted"> 
+            <ul class="nav-links">
                <li><a class="active" href="index.html"><i class="fas fa-home"></i> Home</a></li>
-               <li><a href="about.html"><i class="far fa-address-card"></i> About</a></li>
-               <li><a href="upload.html"><i class="fas fa-upload"></i> Upload</a></li>
-               <li><a href="contact.html"><i class="far fa-paper-plane"></i> Contact</a></li>
-               </ul>
+                    <li><a href="about.html"><i class="far fa-address-card"></i> About</a></li>
+                        <li><a href="upload.html"><i class="fas fa-upload"></i> Upload</a></li>
+                            <li><a href="contact.html"><i class="far fa-paper-plane"></i> Contact</a></li>
+            </ul>
+    </span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span> 
+    </button>
+  </nav>
+</div>
+ 
+
+
+
+
+
+
+
     </nav>
 <section>
         <div class="row">
-            <div class="col-12 col-sm-8" id="tennis-pic"><img src="assets/images/home-hero.jpeg" 
+            <div class="col-12 col-md-6 col-sm-6" id="tennis-pic"><img src="assets/images/home-hero.jpeg" 
                 class="home-hero" alt="Tennis player being coached on court"></div>
-                <div class="col-6 col-sm-4" id="blue-box">
-                    <h1 class="welcome">Welcome to Go Tennis System</h1>
-                        <h4 class="tips">Your home of Tips, Tricks, Training and of course Tennis</h4>
+                <div class="col-12 col-md-6 col-sm-4" id="blue-box">
+                    <h3 class="welcome">Welcome to Go Tennis System</h3>
+                        <p class="tips">Your home of Tips, Tricks, Training and of course Tennis</p>
                 </div>
             </div>
     </section>
@@ -47,7 +69,7 @@
                 <img class="list-inline-item" src="assets/images/lta-britain.png" height="20px" width="70px" alt="LTA Tennis for Britain logo">
         </div>
         
-
+            <p class="connect">Connect with team Go Tennis System:</p>
         <!-- This Social Media part has been copied from the Code Institute Rosie's CV Project-->
             <ul class="social-media" id="text-center">
                 <li class="list-inline-item"><a href="https://www.facebook.com/gotennissystem" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>
@@ -70,6 +92,11 @@
             </div>
 
         <script src="https://kit.fontawesome.com/14fbbe1178.js" crossorigin="anonymous"></script>
+        <!-- I had help from Jo at Code Institute to add the below JavaScript to enable the nav menu bar to be a hamburger and toggle. 
+             By typing ! this brought up a list. It was the bscdnjs that allowed the Bootstrap sctipt below to come into play and toggle the menu -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </footer>
 
 </body>
