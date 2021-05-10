@@ -3,41 +3,50 @@
 /* ------------------------------------------- Go Logo */
 .go-logo {
     position: relative;
-    margin-left: 15px;
+    margin: 30px;
     top: 20px;
     margin-right: auto;
 }
 
 /* ------------------------------------------- Navigation List Links */
 
-.nav-links{
+
+.nav-links {
     font-family: Montserrat, sans-serif;
     list-style-type: none;
-    /*text-align: right;
-    margin-right: 15px;
-    margin-top: 15px;*/
     font-size: 11pt;
-   
 }
-
 
 
 a {
     color: #df6530;
     text-decoration: none;
+    font-family: Montserrat, sans-serif;
 }
 
+a:active {
+    color: #0073af;
+    text-decoration: none;
+}
+
+a:visited {
+  color: #0073af;
+}
 
 a:hover {
     color: #2a5490;
     text-decoration: none; 
 }
 
-.active {
-    color: #0073af;
-    text-decoration: none; 
-} 
 
+/* This will give you like the Love Running transparent box - you will need this for the dropdown on the nav menu and the 
+forms too
+
+background-color: rgba(241, 109, 107, .7);  
+
+if you find the colour for white this may help
+
+*/
 
 /* ------------------------------------------- Home Hero Image */
 
@@ -112,7 +121,64 @@ a:hover {
 }
 
 
-.sponsored-by {
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+}
+
+
+.logo-text {
+    color: #2a5490;
+    text-align: center;
+    position: inline-block;
+}
+
+
+/* Copied from W3 Schools */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+.grid-item {
+  padding: 5px;
+  /*border: 1px solid rgb(219, 32, 32);*/
+}
+
+#sponsored {
+    text-align: left;
+    color: #2a5490;
+ 
+}
+
+#social {
+    text-align: center;
+    color: #2a5490;
+}
+
+.social-media {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 20px;
+}
+
+
+#support {
+    color: #2a5490;
+}
+
+
+
+
+
+
+
+
+/*.sponsored-by {
     text-align: left;
     color: #2a5490;
     margin-right: 2px;
@@ -135,9 +201,7 @@ a:hover {
     margin-left: 15%;
 }
 
-#text-center {
-    float: center;
-}
+
     
 .supporting-logos {
     margin-right: 15px;
@@ -150,11 +214,11 @@ a:hover {
     color: #2a5490;
 }
     
+*/
 
-
-
-
- /*   color: #bac1d0
+ /*
+.social {
+   color: #bac1d0
     text-decoration: none; 
     position: center;
 }
@@ -162,11 +226,23 @@ a:hover {
 
 
 
+/* ------------------------------------------- Upload Form */
+
+
+
+
+
+
+
+
+
 /* ------------------------------------------- Media Queries */
 
-    /* @media only screen and (max-width: 600px) {
-  {
-    
+/* @media only screen and (max-width: px) 
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
   }
 }
 
