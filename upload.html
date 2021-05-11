@@ -11,44 +11,39 @@
 </head>
 <body>
    
-    <nav>
-         <a class="go-logo" href="index.html"> 
-               <img src="assets/images/go-logo.svg" height="70px" width="250px" 
-               alt="Go Tennis System - The same game, just easier"></a>
-    
-               
+ 
 
-    <!-- I worked with Jo from Code Institute to enable the menu to toggle, The code is from Bootstrap-->
+    <!-- I worked with Jo, Tim & Johann from Code Institute to enable the menu to toggle, The code is from Bootstrap-->
 
-  
-  
-     <div class="pos-r-t float-right">
-<div class= "navbar navbar-light navbar-1 white">
-      
+    <nav class="navbar navbar-expand-xs navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/go-logo.svg" height="70px"
+                    width="200px" alt="Go Tennis System - The same game, just easier"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#"><i class="far fa-address-card"></i> About</a>
+                <a class="nav-link" href="upload.html"><i class="fas fa-upload"></i> Upload</a>
+                <a class="nav-link" href="contact.html"><i class="far fa-paper-plane"></i> Contact</a>
+            </div>
+        </div>
+    </nav>
 
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-white p-4">
+
+
+
+
 
         
+                
+                    
+               
+          
 
-    <span class="text-muted"> 
-            <ul class="nav-links">
-               <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="about.html" data-section-anchor="about"><i class="far fa-address-card"></i> About</a></li>
-                        <li><a class="nav-item active" href="upload.html"><i class="fas fa-upload"></i> Upload</a></li>
-                            <li><a href="contact.html"><i class="far fa-paper-plane"></i> Contact</a></li>
-            </ul>
-    </span>
-    </div>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span> 
-    </button>
-  </nav>
-</div>
-    </nav>
+
 
 
 
@@ -56,6 +51,9 @@
 <!-- Form taken from Code Institute Love Running Project and amended to fit my designs -->
 
 <section class="form-section">
+
+    <div class="row">
+            <div class="upload-pic"><img src="assets/images/upload.jpeg" alt="Tennis player being coached on court"></div>
 
 <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
         
@@ -73,19 +71,21 @@
 
 <p>I’d prefer to be contacted by:</p>
 
-<label for="road">Phone</label>
+<label for="phone">Phone</label>
 <input type="radio" name="contact_preference" id="phone" value="road" required> 
 
-<label for="trail">Email</label>
+<label for="email">Email</label>
 <input type="radio" name="contact_preference" id="mail" value="trail" required>
 
 <input class="upload-button" type="submit" value="Submit">
 
-<p>To upload your footage please click <a href="https://wetransfer.com/">here</a></p>
+<p>To upload your footage please click <a href="https://wetransfer.com/" target="_blank">here</a></p>
 
-<p>I would like to make a donation that will shared with the supporting charaties. <i class="fab fa-cc-paypal" id="paypal"></i></p>
+<p>I would like to make a donation that will shared with the supporting charities. <i class="fab fa-cc-paypal" id="paypal"></i></p>
+
 
 </form>
+ </div>
 </section> 
 
 
