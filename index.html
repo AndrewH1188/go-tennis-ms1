@@ -20,7 +20,7 @@
 
     <!-- I worked with Jo, Tim & Johann from Code Institute to enable the menu to toggle, The code is from Bootstrap-->
 
-    <nav class="navbar navbar-light bg-faded">
+    <!-- <nav class="navbar navbar-light bg-faded fixed-top">
         <div class="d-flex flex-grow-1 justify-content-start">
             <a class="navbar-brand-two" href="index.html"> <img src="assets/images/go-logo.svg" height="70px"
                     width="200px" alt="Go Tennis System - The same game, just easier">
@@ -34,7 +34,7 @@
             </button>
         </div>
     </nav>
-    <div class="static-top">
+    <div>
         <div class="collapse text-right" id="navbarToggleExternalContent">
             <div class="bg-white p-4">
                 <ul class="nav-links">
@@ -46,7 +46,24 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <nav class="navbar navbar-expand-xs navbar-light bg-white fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/go-logo.svg" height="70px"
+                    width="200px" alt="Go Tennis System - The same game, just easier"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-transparent" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#"><i class="far fa-address-card"></i> About</a>
+                <a class="nav-link" href="upload.html"><i class="fas fa-upload"></i> Upload</a>
+                <a class="nav-link" href="contact.html"><i class="far fa-paper-plane"></i> Contact</a>
+            </div>
+        </div>
+    </nav>
 
 
 
@@ -56,11 +73,11 @@
 
 
 
-    <section>
+    <section class="hero">
         <div class="row">
-            <div class="col-12 col-md-6 col-sm-6" id="tennis-pic"><img src="assets/images/home-hero.jpeg"
-                    class="home-hero" alt="Tennis player being coached on court"></div>
-            <div class="col-12 col-md-6 col-sm-4" id="blue-box">
+            <div class="col-8 sm-6" id="tennis-pic"><img src="assets/images/home-hero.jpeg" class="home-hero"
+                    alt="Tennis player being coached on court"></div>
+            <div class="col-4 sm-2" id="blue-box">
                 <h3 class="welcome">Welcome to Go Tennis System</h3>
                 <p class="tips">Your home of Tips, Tricks, Training and of course Tennis</p>
             </div>
@@ -72,15 +89,25 @@
 
 
 
-    <p>Test</p>
-    <p>Test</p>
-    <p>Test</p>
-    <p>Test</p>
-    <p>Test</p>
-    <p>Test</p>
-    <p>Test</p>
-    <p>Test</p>
-    <p>Test</p>
+    <article>
+        <h4>Why use our Go Tennis System service?</h4>
+        <p>
+            We offer a bespoke unique service. We do things digitally and at your pace.
+            With our service we ask for a small donation that will be shared with a dogs charity, as part of our aim to
+            give something back.
+            We offer you the chance to upload your videos for coaching, tips and honest constructive feedback, this in
+            turn will allow you to create your own video diary as well as improve and fine tune your skills.
+        </p>
+
+        <p>
+            When we say we play the same game, just easier we mean at your pace and time scale. We cater for all ages as
+            well as all levels, so if you’re a beginner that would like to play like a pro, come and give us a go, you
+            will be glad you did.
+        </p>
+
+    </article>
+
+    <div class="col-12" id="blue"></div>
 
 
 

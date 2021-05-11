@@ -1,42 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400&display=swap');
 
 /* ------------------------------------------- Go Logo */
-.go-logo {
+
+
+
+/*.go-logo {
     position: relative;
     margin: 30px;
     top: 20px;
     margin-right: auto;
-}
+}*/
 
 /* ------------------------------------------- Navigation List Links */
 
 
-.nav-links {
+/*button.navbar-toggler {
+z-index: 10000;
+}*/
+
+
+
+.navbar-nav .nav-link {
+    color: #df6530 !important;
     font-family: Montserrat, sans-serif;
-    list-style-type: none;
     font-size: 11pt;
+    text-align: right;
+}
+
+.navbar-nav a:hover {
+    color: #2a5490 !important;
+}
+
+.navbar-nav .active {
+    color: #0073af !important;
 }
 
 
-a {
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+
+}
+
+.button .navbar-toggler {
     color: #df6530;
-    text-decoration: none;
-    font-family: Montserrat, sans-serif;
 }
 
-a:active {
-    color: #0073af;
-    text-decoration: none;
+.bg-transparent {
+    color: rgba(255, 255, 255, 0.63);
+
 }
 
-a:visited {
-  color: #0073af;
-}
 
-a:hover {
-    color: #2a5490;
-    text-decoration: none; 
-}
 
 
 /* This will give you like the Love Running transparent box - you will need this for the dropdown on the nav menu and the 
@@ -49,6 +63,13 @@ if you find the colour for white this may help
 */
 
 /* ------------------------------------------- Home Hero Image */
+
+
+.hero {
+margin-top: 100px;
+}
+
+
 
 .home-hero {
     position: relative;
@@ -229,6 +250,14 @@ if you find the colour for white this may help
 /* ------------------------------------------- Upload Form */
 
 
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+}
+
+    
+    
 
 
 
