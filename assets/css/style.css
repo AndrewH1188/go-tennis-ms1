@@ -1,22 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400&display=swap');
-
-/* ------------------------------------------- Go Logo */
-
-
-
-/*.go-logo {
-    position: relative;
-    margin: 30px;
-    top: 20px;
-    margin-right: auto;
-}*/
-
 /* ------------------------------------------- Navigation List Links */
 
 
-/*button.navbar-toggler {
-z-index: 10000;
-}*/
+.fas fa-bars{
+    color: #df6530;
+}
+
 
 
 
@@ -87,6 +75,8 @@ margin-top: 100px;
     font-weight: 400;
     float: center;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     /*margin-top: 55%;
     margin-right: 10%;
     margin-left: 10%;
@@ -107,6 +97,8 @@ margin-top: 100px;
     font-weight: 300;
     float: right;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     /*margin-top: 5%;
     margin-right: 15%;
     margin-left: 15%;
@@ -120,6 +112,34 @@ margin-top: 100px;
     text-align: center;  
     color: #fff;
 }
+
+
+/* ------------------------------------------- Why Go Tennis orange bar */
+
+.why-header {
+    text-align: center;
+    padding-top: 1.7px;
+    padding-bottom: 0.2px;
+    background-color: #df6530;
+    color: #fff;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.why-text {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+
+
+
+
+
 
 
 /* ------------------------------------------- Footer */
