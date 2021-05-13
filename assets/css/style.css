@@ -1,34 +1,25 @@
 /* ------------------------------------------- Navigation List Links */
 
-
 .fas .fa-bars{
     color: #df6530;
 }
 
-
-.nav-link .nav-link {
-    color: #df6530 !important;
+.nav-link {
     font-family: Montserrat, sans-serif;
+    color: #df6530 !important;
     font-size: 11pt;
     text-align: right;
 }
 
-.navbar-nav a:hover {
-    color: #2a5490 !important;
+.nav-link a:hover{
+    color: #2a5490;
 }
 
-
-.navbar-nav .active {
-    color: #0073af !important;
+.a:active  {
+    color: #0073af;
 }
 
-
-.navbar-light .navbar-toggler {
-    border-color: rgba(0, 0, 0, 0);
-}
-
-
-
+*/
 
 
 
@@ -43,14 +34,14 @@ if you find the colour for white this may help
 
 /* ------------------------------------------- Home Hero Image */
 
-
 .hero {
-margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .home-hero {
     position: relative;
-    max-width: 115%;
+    max-width: 110%;
     width: auto;
     height: auto;
     padding: 0;
@@ -66,22 +57,20 @@ margin-top: 100px;
     padding: 0;
     margin: 0;
     background: #2a5490;
-  
 }
 
 .welcome { 
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     float: center;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    /*margin-top: 55%;
+    margin-top: 55%;
     margin-right: 10%;
     margin-left: 10%;
-    top: 220px;
-    right: 32px;
-    width: 350px;*/
+    top: 60px;
+    right: auto;
     height: auto; 
     width: auto;
     text-align: center;
@@ -89,44 +78,65 @@ margin-top: 100px;
 }
 
 
-
-
 .tips { 
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-weight: 300;
     float: right;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    /*margin-top: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
-    top: 320px;
-    right: 66px; 
-    max-width: 270px;
-    max-width: fit-content;
-    max-height: fit-content;*/
-    height: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    top: 60px;
+    right: auto;
+    height: auto; 
     width: auto;
-    text-align: center;  
-    color: #fff;
+    text-align: center;
+    color: #fff; 
 }
 
 
 /* ------------------------------------------- Why Go Tennis? */
 
 .why-header {
-    font-weight: 400;
+    font-family: Montserrat, sans-serif;
     text-align: center;
-    padding-top: 120px;
+    margin-top: 120px;
     padding-bottom: 1px;
-
     margin-left: auto;
     margin-right: auto;
 }
 
 
 .why-text {
+    font-family: Montserrat, sans-serif;
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+
+/* ------------------------------------------- About Us */
+
+.about-section {
+    background-color: #fafafa;
+  } 
+
+.about-us {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------------------------------- About Us - How can we help you? */
+
+.how-we-help {
+    font-family: Montserrat, sans-serif;
     width: 50%;
     text-align: justify;
     padding-bottom: 120px;
@@ -136,9 +146,17 @@ margin-top: 100px;
 }
 
 
+/* ------------------------------------------- About Us - Coach Adam Jameel */
 
-
-
+.coach {
+    font-family: Montserrat, sans-serif;
+    width: 50%;
+    text-align: justify;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
 
 
 /* ------------------------------------------- Footer */
@@ -162,19 +180,24 @@ margin-top: 100px;
 
 
 #title {
+    font-family: Montserrat, sans-serif;
     font-size: 15px;
     color: #fff;
-
 }
 
 
 .social-media {
     font-size: 20px;
     letter-spacing: 10px;
-    color: #fff !important;
 }
 
+a{
+    color: #fff;
+}
 
+a:hover{
+    color: #c7d7f0;
+}
 
 
 
