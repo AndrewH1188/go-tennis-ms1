@@ -198,6 +198,18 @@ a:hover{
 
 
 
+/* ------------------------------------------- Carousel */
+
+
+
+.carousel-text{
+    text-align: center;
+}
+
+.carousel{ 
+    background-color: #fff;
+}
+
 
 
 
