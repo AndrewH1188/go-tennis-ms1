@@ -128,20 +128,18 @@ if you find the colour for white this may help
     font-family: Montserrat, sans-serif;
     text-align: center;
     padding-top: 120px;
-    padding-bottom: 1px;
+    padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* ------------------------------------------- About Us - How can we help you? */
 
-.how-we-help {
+  .how-we-help {
     font-family: Montserrat, sans-serif;
-    width: 50%;
     text-align: justify;
     padding-bottom: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-right: 30px;
     font-size: medium;
 }
 
@@ -150,11 +148,9 @@ if you find the colour for white this may help
 
 .coach {
     font-family: Montserrat, sans-serif;
-    width: 50%;
     text-align: justify;
     padding-bottom: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-right: 30px;
     font-size: medium;
 }
 
