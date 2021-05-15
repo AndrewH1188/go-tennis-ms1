@@ -6,20 +6,21 @@
 
 .nav-link {
     font-family: Montserrat, sans-serif;
-    color: #df6530 !important;
+    color: #df6530 ;
     font-size: 11pt;
     text-align: right;
 }
 
-.nav-link a:hover{
+.a .nav-link .hover{
     color: #2a5490;
 }
 
-.a:active  {
-    color: #0073af;
+.a .nav-link .active  {
+    color: #12a1ee;
 }
 
-*/
+
+
 
 
 
@@ -187,11 +188,16 @@ if you find the colour for white this may help
     letter-spacing: 10px;
 }
 
-a{
+
+
+
+
+
+.social-media a{
     color: #fff;
 }
 
-a:hover{
+.social-media a:hover{
     color: #c7d7f0;
 }
 
@@ -210,7 +216,13 @@ a:hover{
     background-color: #fff;
 }
 
+ol.carousel-indicators .li{
+    color: #2a5490;
+}
 
+.carousel-indicators li.active{
+    color: #2a5490;
+}
 
 
 
