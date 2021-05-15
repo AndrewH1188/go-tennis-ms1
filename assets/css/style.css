@@ -1,24 +1,27 @@
 /* ------------------------------------------- Navigation List Links */
 
-.fas .fa-bars{
+.fa-bars {
+    color: #df6530;
+}
+
+#dropdownMenuButton {
     color: #df6530;
 }
 
 .nav-link {
     font-family: Montserrat, sans-serif;
-    color: #df6530 ;
+    color: #df6530;
     font-size: 11pt;
     text-align: right;
 }
 
-.a .nav-link .hover{
+.a .nav-link .hover {
     color: #2a5490;
 }
 
-.a .nav-link .active  {
+.a .nav-link .active {
     color: #12a1ee;
 }
-
 
 
 
@@ -36,7 +39,7 @@ if you find the colour for white this may help
 /* ------------------------------------------- Home Hero Image */
 
 .hero {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -187,11 +190,6 @@ if you find the colour for white this may help
     font-size: 20px;
     letter-spacing: 10px;
 }
-
-
-
-
-
 
 .social-media a{
     color: #fff;
