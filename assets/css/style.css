@@ -12,6 +12,7 @@
     font-family: Montserrat, sans-serif;
     color: #df6530;
     font-size: 11pt;
+    margin: 15px;
     text-align: right;
 }
 
@@ -22,6 +23,9 @@
 .a .nav-link .active {
     color: #12a1ee;
 }
+
+
+
 
 
 
@@ -159,24 +163,44 @@ if you find the colour for white this may help
 }
 
 
-/* ------------------------------------------- Footer */
 
-.footer-color {
+
+
+/* ------------------------------------------- Carousel */
+
+.carousel-text{
+    text-align: center;
+}
+
+.carousel-inner {
+    background-color: #fff;
+}
+
+.carousel-indicators li {
     background-color: #2a5490;
-    color: #fff;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
-/*.container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+.fa-angle-left, .fa-angle-right {
+    color:#2a5490;
+    font-size: 25px;
+}
 
-}*/
+
+
+
+/* ------------------------------------------- Footer */
+
+
+.footer {
+    background-color: #2a5490;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    
+}
+
 
 
 #title {
@@ -199,28 +223,6 @@ if you find the colour for white this may help
     color: #c7d7f0;
 }
 
-
-
-
-/* ------------------------------------------- Carousel */
-
-
-
-.carousel-text{
-    text-align: center;
-}
-
-.carousel{ 
-    background-color: #fff;
-}
-
-ol.carousel-indicators .li{
-    color: #2a5490;
-}
-
-.carousel-indicators li.active{
-    color: #2a5490;
-}
 
 
 
