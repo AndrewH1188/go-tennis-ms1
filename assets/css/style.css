@@ -135,7 +135,7 @@ if you find the colour for white this may help
 .about-us {
     font-family: Montserrat, sans-serif;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 110px;
     padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -162,18 +162,17 @@ if you find the colour for white this may help
     font-size: medium;
 }
 
-
-
-
-
 /* ------------------------------------------- Carousel */
 
 .carousel-text{
     text-align: center;
+    margin-top: 120px;
+    margin-bottom: 0;
 }
 
 .carousel-inner {
     background-color: #fff;
+    margin-bottom: 100px;
 }
 
 .carousel-indicators li {
@@ -186,33 +185,34 @@ if you find the colour for white this may help
     font-size: 25px;
 }
 
-
-
-
 /* ------------------------------------------- Footer */
-
 
 .footer {
     background-color: #2a5490;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    color: #fff;
-    
+    min-width: 100%;
 }
 
 
-
-#title {
+.title {
     font-family: Montserrat, sans-serif;
-    font-size: 15px;
+    font-size: 14.5px;
     color: #fff;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
+.sponsors {
+    margin-top: -30px;
+}
 
 .social-media {
     font-size: 20px;
-    letter-spacing: 10px;
+    letter-spacing: 11px;
+    margin-top: -30px;
 }
 
 .social-media a{
@@ -223,7 +223,24 @@ if you find the colour for white this may help
     color: #c7d7f0;
 }
 
+.supporting-logos {
+    margin-top: -30px;
+    padding-top: 0;
+}
 
+
+/* ------------------------------------------- Upload Text */
+
+.submit-heading { 
+    font-family: Montserrat, sans-serif;
+    color: #2a5490;
+}
+
+
+.fa-cc-paypal {
+    color: #df6530;
+    font-size: 25px;
+}
 
 
 
