@@ -150,6 +150,14 @@ if you find the colour for white this may help
     font-size: medium;
 }
 
+.fa-info-circle {
+    color: #2a5490;
+}
+
+.help {
+    color: #2a5490;
+}
+
 
 /* ------------------------------------------- About Us - Coach Adam Jameel */
 
@@ -159,6 +167,14 @@ if you find the colour for white this may help
     padding-bottom: 120px;
     padding-right: 30px;
     font-size: medium;
+}
+
+.fa-user-friends {
+    color: #2a5490;
+}
+
+.adam {
+    color: #2a5490;
 }
 
 /* ------------------------------------------- Carousel */
@@ -232,6 +248,15 @@ if you find the colour for white this may help
 .submit-heading { 
     font-family: Montserrat, sans-serif;
     color: #2a5490;
+    margin-top: 15%;
+    margin-left: 110px;
+}
+
+.donate {
+    font-family: Montserrat, sans-serif;
+    margin-top: 0;
+    margin-left: auto;
+    margin-left: 110px;
 }
 
 
@@ -240,14 +265,18 @@ if you find the colour for white this may help
     font-size: 25px;
 }
 
+.fa-cc-paypal:hover {
+    color: #2a5490;
+}
+
 
 
 /* ------------------------------------------- Upload Form */
 
 
 .upload-pic {
-    max-width: 90px;
-
+    position: absolute;
+    z-index: -1;
 }
 
 
@@ -259,24 +288,24 @@ if you find the colour for white this may help
     background-size: cover;
     background-position: center;
     height: 900px;
+
 }
 
 .signup-form {
-    margin-top: 150px;
+    font-family: Montserrat, sans-serif;
+    margin-top: 250px;
     background-color: rgba(255, 255, 255, 0.555);
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 5%;
     padding: 30px;
 }
 
 .text-input {
-    /* background: transparent; */
-    color: #fff;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #000000;   
+    border: 0.5px solid #000000;   
 }
 
 .text-input:hover {
@@ -290,14 +319,16 @@ if you find the colour for white this may help
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #2a5490;
+    background-color: #df6530;
+    border-color: #df6530;
+    
     color: #fff;
     display: block;
 }
 
-.upload-button {
-    background-color: #df6530;
-    color: #fff;
+.btn-success:hover {
+    background-color: #2a5490;
+    border-color: #2a5490;
 }
 
 
