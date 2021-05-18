@@ -61,7 +61,6 @@ if you find the colour for white this may help
 
 #blue-box { 
     position: relative;
-    /*left: -15px;*/
     padding: 0;
     margin: 0;
     background: #2a5490;
@@ -190,9 +189,8 @@ if you find the colour for white this may help
 .footer {
     background-color: #2a5490;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100%;
+    width: 100%;
+    position: relative;
 }
 
 
@@ -211,8 +209,8 @@ if you find the colour for white this may help
 
 .social-media {
     font-size: 20px;
-    letter-spacing: 11px;
     margin-top: -30px;
+    padding-right: 26px;
 }
 
 .social-media a{
@@ -255,8 +253,68 @@ if you find the colour for white this may help
 
     
     
+/* taken from the Love Running Code Institute project and amended in places wo match what I am expecting to see based on my designs */
+
+.we-transfer {
+    color: #2a5490;
+    text-decoration: none !important;
+}
+
+.we-transfer .ahover {
+    color: #df6530;
+}
 
 
+
+
+/*  .form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.678);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+.text-input {
+    background: transparent;
+    color: #fafafa; 
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa; 
+    border-radius: 2px;
+}
+.text-input:hover {
+    border-color: #f16c6b;
+}
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+*/
 
 
 
