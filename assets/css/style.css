@@ -69,11 +69,10 @@ if you find the colour for white this may help
 .welcome { 
     font-family: Montserrat, sans-serif;
     font-weight: 400;
-    float: center;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 55%;
+    margin-top: 45%;
     margin-right: 10%;
     margin-left: 10%;
     top: 60px;
@@ -200,23 +199,136 @@ if you find the colour for white this may help
     font-size: 25px;
 }
 
+
+
+
+
+
+
+/* ------------------------------------------- Upload Text */
+
+.submit-heading { 
+    font-family: Montserrat, sans-serif;
+    color: #2a5490;
+    margin-top: 17%;
+    margin-left: 42px;
+}
+
+p.donate {
+    font-family: Montserrat, sans-serif;
+    margin-left: 42px;
+  
+}
+
+
+.fa-cc-paypal {
+    color: #df6530;
+    font-size: 25px;
+}
+
+.fa-cc-paypal:hover {
+    color: #2a5490;
+}
+
+
+
+/* ------------------------------------------- Upload Form */
+
+
+
+
+.upload-pic {
+    position: absolute;
+    max-width: auto;
+    max-height: auto;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+
+/* taken from the Love Running Code Institute project and amended in places wo match what I am expecting to see based on my designs */
+
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+
+}
+
+.signup-form {
+    font-family: Montserrat, sans-serif;
+    margin-top: 280px;
+    background-color: rgba(255, 255, 255, 0.555);
+    max-width: 400px;
+    position: absolute;
+    left: 5%;
+    padding: 30px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 0.5px solid #000000;   
+}
+
+.text-input:hover {
+    border-color: #df6530;
+}
+
+.upload-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #df6530;
+    border-color: #df6530;
+    
+    color: #fff;
+    display: block;
+}
+
+.btn-success:hover {
+    background-color: #2a5490;
+    border-color: #2a5490;
+}
+
+.we-transfer {
+    color: #2a5490;
+    text-decoration: none !important;
+}
+
+.we-transfer .a:hover {
+    color: #df6530;
+}
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------------- Footer */
 
 .footer {
     background-color: #2a5490;
     margin-top: 10px;
-    width: 100%;
-    position: relative;
+    min-width: 100%;
 }
-
 
 .title {
     font-family: Montserrat, sans-serif;
     font-size: 14.5px;
     color: #fff;
     margin-top: 20px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sponsors {
@@ -243,117 +355,6 @@ if you find the colour for white this may help
 }
 
 
-/* ------------------------------------------- Upload Text */
-
-.submit-heading { 
-    font-family: Montserrat, sans-serif;
-    color: #2a5490;
-    margin-top: 15%;
-    margin-left: 110px;
-}
-
-.donate {
-    font-family: Montserrat, sans-serif;
-    margin-top: 0;
-    margin-left: auto;
-    margin-left: 110px;
-}
-
-
-.fa-cc-paypal {
-    color: #df6530;
-    font-size: 25px;
-}
-
-.fa-cc-paypal:hover {
-    color: #2a5490;
-}
-
-
-
-/* ------------------------------------------- Upload Form */
-
-
-.upload-pic {
-    position: absolute;
-    z-index: -1;
-}
-
-
-
-/* taken from the Love Running Code Institute project and amended in places wo match what I am expecting to see based on my designs */
-
-.form-section {
-    clear: left;
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-
-}
-
-.signup-form {
-    font-family: Montserrat, sans-serif;
-    margin-top: 250px;
-    background-color: rgba(255, 255, 255, 0.555);
-    max-width: 400px;
-    position: absolute;
-    left: 5%;
-    padding: 30px;
-}
-
-.text-input {
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 0.5px solid #000000;   
-}
-
-.text-input:hover {
-    border-color: #df6530;
-}
-
-.upload-button {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* border-radius: 2px; */
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #df6530;
-    border-color: #df6530;
-    
-    color: #fff;
-    display: block;
-}
-
-.btn-success:hover {
-    background-color: #2a5490;
-    border-color: #2a5490;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-/* taken from the Love Running Code Institute project and amended in places wo match what I am expecting to see based on my designs */
-
-.we-transfer {
-    color: #2a5490;
-    text-decoration: none !important;
-}
-
-.we-transfer .a:hover {
-    color: #df6530;
-}
 
 
 /* ------------------------------------------- Media Queries */
