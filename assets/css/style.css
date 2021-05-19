@@ -217,7 +217,15 @@ if you find the colour for white this may help
 p.donate {
     font-family: Montserrat, sans-serif;
     margin-left: 42px;
-  
+}
+
+
+.we-transfer {
+    color: #2a5490;
+}
+
+.we-transfer:hover  {
+    color: #df6530;
 }
 
 
