@@ -25,21 +25,6 @@
 }
 
 
-
-
-
-
-
-
-/* This will give you like the Love Running transparent box - you will need this for the dropdown on the nav menu and the 
-forms too
-
-background-color: rgba(241, 109, 107, .7);  
-
-if you find the colour for white this may help
-
-*/
-
 /* ------------------------------------------- Home Hero Image */
 
 .hero {
@@ -59,7 +44,7 @@ if you find the colour for white this may help
 
 /* ------------------------------------------- Home Welcome Box */
 
-#blue-box { 
+.blue-box { 
     position: relative;
     padding: 0;
     margin: 0;
@@ -175,6 +160,7 @@ if you find the colour for white this may help
 .adam {
     color: #2a5490;
 }
+
 
 /* ------------------------------------------- Carousel */
 
@@ -438,12 +424,73 @@ p.contact {
 
 /* ------------------------------------------- Media Queries */
 
-/* @media only screen and (max-width: px) 
 
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
+
+
+
+@media (min-width: 992px) {
+    .hero {
+    max-width: 100%;
+    }
+}
+
+
+/* @media (max-width: 800px) {
+.blue-box {
+    flex-direction: row;
+
+
+
   }
 }
+
+
+
+
+.blue-box { 
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: #2a5490;
+}
+
+.welcome { 
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45%;
+    margin-right: 10%;
+    margin-left: 10%;
+    top: 60px;
+    right: auto;
+    height: auto; 
+    width: auto;
+    text-align: center;
+    color: #fff; 
+}
+
+
+.tips { 
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    float: right;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    top: 60px;
+    right: auto;
+    height: auto; 
+    width: auto;
+    text-align: center;
+    color: #fff; 
+}
+
+
+
+
 
 */
