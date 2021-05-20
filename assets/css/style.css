@@ -20,7 +20,7 @@
     color: #2a5490;
 }
 
-.a .nav-link .active {
+.active {
     color: #12a1ee;
 }
 
@@ -191,6 +191,7 @@ if you find the colour for white this may help
 
 .carousel-indicators li {
     background-color: #2a5490;
+    position: relative;
 }
 
 
@@ -210,13 +211,16 @@ if you find the colour for white this may help
 .submit-heading { 
     font-family: Montserrat, sans-serif;
     color: #2a5490;
-    margin-top: 17%;
-    margin-left: 42px;
+    margin-top: 140px;
+    margin-left: 61px;
+   
 }
 
 p.donate {
     font-family: Montserrat, sans-serif;
-    margin-left: 42px;
+    margin-top: 10px;
+    margin-left: 61px;
+    margin-right: 200px;
 }
 
 
@@ -250,7 +254,6 @@ p.donate {
     max-width: auto;
     max-height: auto;
     padding: 0;
-    margin: 0;
     z-index: -1;
 }
 
@@ -269,9 +272,9 @@ p.donate {
     font-family: Montserrat, sans-serif;
     margin-top: 280px;
     background-color: rgba(255, 255, 255, 0.555);
-    max-width: 400px;
+    max-width: 500px;
     position: absolute;
-    left: 5%;
+    left: 45px;
     padding: 30px;
 }
 
@@ -294,7 +297,6 @@ p.donate {
     font-size: 100%;
     background-color: #df6530;
     border-color: #df6530;
-    
     color: #fff;
     display: block;
 }
@@ -314,12 +316,83 @@ p.donate {
 }
 
 
+/* ------------------------------------------- Contact Text */
+
+.contact-heading { 
+    font-family: Montserrat, sans-serif;
+    color: #2a5490;
+    margin-top: 140px;
+    margin-left: 61px; 
+}
+
+p.contact {
+    font-family: Montserrat, sans-serif;
+    margin-top: 10px;
+    margin-left: 61px;
+    margin-right: 200px;
+}
 
 
+/* ------------------------------------------- Contact Form */
 
+.contact-pic {
+    position: absolute;
+    max-width: auto;
+    max-height: auto;
+    padding: 0;
+    z-index: -1;
+}
 
+/* taken from the Love Running Code Institute project and amended in places wo match what I am expecting to see based on my designs */
 
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 
+.signup-form {
+    font-family: Montserrat, sans-serif;
+    margin-top: 260px;
+    background-color: rgba(255, 255, 255, 0.555);
+    max-width: 500px;
+    position: absolute;
+    left: 45px;
+    padding: 30px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 0.5px solid #000000;   
+}
+
+.text-input:hover {
+    border-color: #df6530;
+}
+
+.submit-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #df6530;
+    border-color: #df6530;
+    color: #fff;
+    display: block;
+}
+
+.btn-success:hover {
+    background-color: #2a5490;
+    border-color: #2a5490;
+}
+
+.textarea {
+    height: auto;
+}
 
 
 /* ------------------------------------------- Footer */
@@ -361,8 +434,6 @@ p.donate {
     margin-top: -30px;
     padding-top: 0;
 }
-
-
 
 
 /* ------------------------------------------- Media Queries */
