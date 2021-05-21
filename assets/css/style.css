@@ -427,7 +427,7 @@ p.contact {
 
 
 
-
+/*
 @media (min-width: 992px) {
     .hero {
     max-width: 100%;
@@ -435,7 +435,7 @@ p.contact {
 }
 
 
-/* @media (max-width: 800px) {
+ @media (max-width: 800px) {
 .blue-box {
     flex-direction: row;
 
