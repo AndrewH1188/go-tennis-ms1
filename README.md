@@ -1,31 +1,33 @@
-Go Tennis System Website
+#Go Tennis System Website
 
 
-[View the live site here:] (https://                       )
+View the live site [here:] (https://                       )
 
 
-This domain will allow you to access the Go Tennis System website, which I have completed as part of the Code Institute Milestone 1 Project. This website is designed to be responsive on a range of devices and browsers, allowing access to anyone that is interested in this service that Go Tennis System are offering.
-
-Table of Contents
-1. User Experience (UX) [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md]
-    User Stories [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#user-stories]
-    Returning Visitor Goals [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#returning-visitor-goals]
-    Frequent User Goals [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#frequent-visitor-goals]
-    User/Customer Goals [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#customer-goals]
-    Business Goals [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#business-goals]
-   Design [[https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#design]
-    Imagry [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#imagry]
-    Wireframes [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#wireframes]
-2. Features [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#features]
-3. Technologies and Languages Used [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#languages-used]
-4. Testing []
-5. Deployment []
-6. Credits []
-    Content []
-    Acknowledgements [https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#acknowledgements]
+This domain will allow you to access the Go Tennis System website, which I have completed as part of the Code Institute Milestone 1 Project.  
+This website is designed to be responsive on a range of devices and browsers, allowing access to anyone that is interested in this service that Go Tennis System are offering.
 
 
-## User Experience (UX) (https://github.com/AndrewH1188/go-tennis-ms1/blob/4b710aba74ed014f6e76951f08a83a3a476f35ff/README.md#ux)
+## Table of Contents
+1. [User Experience (UX)](#ux)
+    * [User Stories](#user-stories) 
+    * [Returning Visitor Goals](#returning-visitor-goals)
+    * [Frequent User Goals](#frequent-user-goals)
+    * [User Customer Goals](#user-goals)
+    * [Business Goals](#business-goals)
+    * [Design](#design)
+    * [Imagry](#imagry)
+    * [Wireframes](#wireframes)
+2. [Features](#features)
+3. [Technologies and Languages Used](#technologies)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+    * [Content](#content)
+    * [Acknowledgements](#acknowledgements)
+
+
+## User Experience (UX) 
 I have designed this website for my Tennis coach Adam Jameel who is starting up his own business. 
 This website is to allow users to have video lessons and tutorials wherever they are in the world. 
 This has been bought about because of the current pandemic and my Tennis coach wanting to keep people fit, training as well as keep their physical and mental health on form.
