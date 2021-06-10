@@ -55,15 +55,9 @@
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 45%;
-    margin-right: 10%;
-    margin-left: 10%;
-    top: 60px;
-    right: auto;
-    height: auto; 
-    width: auto;
+    padding-top: 55%;
+    padding-right: 10%;
+    padding-left: 10%;
     text-align: center;
     color: #fff; 
 }
@@ -74,14 +68,9 @@
     font-weight: 300;
     float: right;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-right: 10%;
-    margin-left: 10%;
-    top: 60px;
-    right: auto;
-    height: auto; 
-    width: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 55%;
     text-align: center;
     color: #fff; 
 }
@@ -92,7 +81,7 @@
 .why-header {
     font-family: Montserrat, sans-serif;
     text-align: center;
-    margin-top: 120px;
+
     padding-bottom: 1px;
     margin-left: auto;
     margin-right: auto;
@@ -103,7 +92,7 @@
     font-family: Montserrat, sans-serif;
     width: 50%;
     text-align: justify;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
     font-size: medium;
@@ -113,15 +102,12 @@
 
 .about-section {
     background-color: #fafafa;
+    padding-top: 90px;
   } 
 
 .about-us {
     font-family: Montserrat, sans-serif;
     text-align: center;
-    padding-top: 110px;
-    padding-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* ------------------------------------------- About Us - How can we help you? */
@@ -166,29 +152,32 @@
 
 .carousel-text{
     text-align: center;
-    margin-top: 120px;
-    margin-bottom: 0;
+    padding-top: 120px;
+    padding-bottom: 0;
 }
 
 .carousel-inner {
     background-color: #fff;
-    margin-bottom: 100px;
+    padding-bottom: 25px;
 }
 
 .carousel-indicators li {
     background-color: #2a5490;
-    position: relative;
+    position: relative; 
 }
 
 
 .fa-angle-left, .fa-angle-right {
     color:#2a5490;
     font-size: 25px;
+    padding-top: 90px;
 }
 
 
 
-
+#carouselExampleIndicators {
+    height:100%;
+}
 
 
 
@@ -420,6 +409,10 @@ p.contact {
     margin-top: -30px;
     padding-top: 0;
 }
+
+
+
+
 
 
 /* ------------------------------------------- Media Queries */

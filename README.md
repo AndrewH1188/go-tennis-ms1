@@ -1,15 +1,15 @@
-#Go Tennis System
+# Go Tennis System
 
 
 View the live site [here:] (https://                       )
 
 
-This domain will allow you to access the Go Tennis System website, which I have completed as part of the Code Institute Milestone 1 Project.  
-This website is designed to be responsive on a range of devices and browsers, allowing access to anyone that is interested in this service that Go Tennis System are offering.
+This domain will allow you to access the Go Tennis System website, which I have completed as part of the Code Institute Milestone 1 Project.
 
+This website is designed to be responsive on a range of devices and browsers, allowing access to anyone that is interested in the service Go Tennis System are offering.
 
 ## Table of Contents
-1. [User Experience (UX)](#ux)
+1. [User Experience UX](#user-experience-ux)
     * [User Stories](#user-stories) 
         * [As a new / first time user](#new-first-time-user)
         * [Returning Visitor Goals](#returning-visitor-goals)
@@ -28,7 +28,7 @@ This website is designed to be responsive on a range of devices and browsers, al
     * [Acknowledgements](#acknowledgements)
 
 
-## User Experience (UX) 
+## User Experience UX 
 I have designed this website for my Tennis coach Adam Jameel who is starting up his own business.  
 This website is to allow users to have video lessons and tutorials wherever they are in the world.  
 This has been bought about because of the current pandemic and my Tennis coach wanting to keep people fit, training as well as keep their physical and mental health on form.
@@ -38,7 +38,7 @@ This has been bought about because of the current pandemic and my Tennis coach w
 *  As a new / first time user / potential customer all content will be easy to navigate through in order that the user finds what they are looking for quickly, this will provide the user with a great friendly user experience and transform them into a returning and frequent user of the site.
 * As part of the new / first time user’s / potential customer's experience there will be all the information such as customer feedback in the way of testimonials. This is to help them make an informed decision about the service that Go Tennis System has offered, and can offer you. There will also be social media links so you can follow Go Tennis System and see their new  posts, as well as provide another form of interaction to the user and Go Tennis System.
 
-###### As a new / first time user / potential customer I would expect the questions that they would ask are:
+#### As a new / first time user / potential customer I would expect the questions that they would ask are:
 * What will I receive?
 * Why should I use Go Tennis System?
 * What does this site have to offer me?
@@ -49,24 +49,24 @@ This has been bought about because of the current pandemic and my Tennis coach w
 * How do I do something that isn’t how everyone else does it, for example how can I be  unique?
 * Does this service offer coaching to suit me at my level and can I progress?
 
-###### Returning Visitor Goals  
+#### Returning Visitor Goals  
 * As a returning user / customer I would like to be able to see updated relevant content.
 * As a returning user / customer I would like to find the relevant information that helps me progress as well as any offers that may be available for me to take advantage of.
 * As a returning user / customer I would like to be able to have the content delivered in a way that is easily understandable and relatable to me and what I am looking for.
 
-###### As a returning user / customer I would expect the questions that they would ask are:  
+#### As a returning user / customer I would expect the questions that they would ask are:  
 * Is the content being refreshed / new content being added / updated?
 *  Are there any discounts or offers that I may be able to use / take advantage of?
 *  How do I perfect my shots from my current standard?
 *  Is the information relatable and understandable?
 *  Is the information helpful to me with what I would like to and how I would like to achieve this?
 
-###### Frequent User Goals. 
+#### Frequent User Goals. 
 * As a frequent user / customer I would like to be able to see relevant updated content 
 * As a frequent user / customer I would like to be able to see where there are events taking place near me that I may be interested in and like to go and join in with. In doing so this will enable me to put into practice what I have learned and also learn through playing others too.
 * As a frequent user / customer I would like to be able to see items that will get me involved with Go Tennis System, a few examples maybe meet up events, one on one with my coach, pairing me with someone else of maybe the same standard or slightly better, in doing this it will enable me as the user of the Go Tennis System to really feel a part of this, and also put my skills to the test. I would also like to see other such customer focused activities that will help me in my player development. Other things to be included could be email newsletters with Top Tips, Tricks and Training guides and exercises to help me before and after my  session(s).
 
-###### As a frequent user I would expect the questions that they would ask are:
+#### As a frequent user I would expect the questions that they would ask are:
 * How can I go from my current standard to the next / advance?
 * What new tips, tricks, tactics and ways  are there to implement what I have learned?
 * Are there any strategies for games?
@@ -75,14 +75,14 @@ This has been bought about because of the current pandemic and my Tennis coach w
 I would expect the bulk of new, returning and frequent users to be at a beginner level, although would say that there will be users that have been playing that are not beginners and want to learn more, as well as perfect what they have already learned / know.
 
 
-###### User/Customer Goals
+#### User/Customer Goals
 The user/customer goals that Go Tennis System will offer to provide to users are:  
 * As part of the ability to upload/submit their video the user/customer will be asked for a donation. Part of this will go to a dogs charity or an animal rescue that members of Go Tennis System are associated with. Part of the donation will go to help with running costs of the site as well as pay for the assessors time and knowledge.
 * The ability to upload/submit the users footage: Upon having contributed a donation the user/customer will receive a focused, helpful service by means of coaching to enable them to improve their skills by the assessor. Video footage as well as tips, tricks and training will help the user to enhance their shots, increase their understanding and fine tune their skills. 
 * This service is online only, this will enable users/customers the ability to receive feedback whatever the current outlook of the world, or wherever in the world they are located. Also in doing the training online this allows the user to take the training at their own pace, practice anywhere they are able to do so, as well as at a time to suit them.
 * By using the Go Tennis System video uploading service users/customers are able to form their own video diary of their progress. They will be able to watch the video feedback and coaching they receive and document their journey from the day they started out to the level they want to be at. There is hope that the user/customer will continue to take advantage of offers and USPs (Unique Selling Points) enabling them to train more so that should the customer/user wish to this will enable them to compete socially as well as in matches/tournaments. 
 
-###### Business Goals  
+#### Business Goals  
 The business goals and outcomes that Go Tennis System want to receive from this website are:
 *  Reaching out to new users/customers in having another platform (the website) in which users will be able to find them.
 *  In having the website have the users/customers interact with this by means of uploading their videos for coaching/assessment.
@@ -94,16 +94,16 @@ The site is designed over three pages although has four links. There is the inde
 The links all work and connect to the relevant page or section of the project.
 
 The main font that I will be using is Montserrat and will add the fall back of Sans Serif in case the browser can not load the default font, or this isn't imported. 
-I have used Meedori Sans for the Go Tennis logo and Montserrat for the slogan 'The same game just easier' that I produced in Adobe Illustrator [https://www.adobe.com/uk/products/illustrator.html].
+I have used Meedori Sans for the Go Tennis logo and Montserrat for the slogan 'The same game just easier' that I produced in [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html).
 I have kept with the Montserrat font throughtout the site to keep with consistency and to tie everything in together, as well as keep a clean look and feel.
 
 I chose the colours based on the brief I was given by Adam my Tennis Coach as he likes blue and the orange compliments this nicely.
 
 
 ## Imagry
-The Go Tennis System Logo and Slogan that is incorporated in the logo I will design using Adobe InDesign and then will export out as an SVG to make this able to load. When I had my first Mentoring Session with Antonija I asked how best to export the logo so this loads all the time and an SVG file was the best option Antonija said will load and not be broken across different browsers.
+The Go Tennis System Logo and Slogan that is incorporated in the logo I will design using [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html) and then will export out as an SVG to make this able to load. When I had my first Mentoring Session with Antonija I asked how best to export the logo so this loads all the time and an SVG file was the best option Antonija said will load and not be broken across different browsers.
 
-With some of the imagery I will download this from Adobe Stock. The images will be Tennis related as this is what the site is about and what the service offers. The images will grab the viewers attention as well as support the site content. The Hero image for the front page will work nicely and will offset / complement the layout. 
+With some of the imagery I will download this from [Adobe Stock](https://stock.adobe.com/uk). The images will be Tennis related as this is what the site is about and what the service offers. The images will grab the viewers attention as well as support the site content. The Hero image for the front page will work nicely and will offset / complement the layout. 
 
 The images will also be simple and not overpower any text or messages that are on the site but will seek to support them.
 
@@ -113,22 +113,25 @@ For the Supporting logos one will be a placeholder image/logo for now as I have 
 I have downloaded the following images from [Adobe Stock](https://stock.adobe.com/uk):
 
 1. [Man training woman how to play in tennis](https://stock.adobe.com/uk/images/man-training-woman-how-to-play-in-tennis/90821107)  
-* file #: 90821107 
-* Photo uploaded to Adobe Stock by Drobot Dean       
+    * file #: 90821107 
+    * Photo uploaded to Adobe Stock by Drobot Dean
+
 The hero image on the Home page (index.html) was selected because it shows tennis coaching, I thought it would fit with the theme as this is what the site is mainly about and targeted towards the service that it has to offer. 
 I believe the image shows the fun in the learning without showing the users experience / player level, although we could assume that the level could be beginner because of how the coach is holding the racket with the student. 
 I know from having received tennis coaching this is useful at any level as it helps the person being coached/student to identify how to correctly hold the racket for the shot they wish to learn or play. I believe this image fits in well with the rest of the home page and is not too overbearing, but also doesn’t get lost either. 
 
-2. [Beautiful female tennis player serving](https://stock.adobe.com/uk/images/beautiful-female-tennis-player-serving/128935730)
-* file #: 128935730
-* Photo uploaded to Adobe Stock by NDABCREATIVITY  
+2. [Beautiful female tennis player serving](https://stock.adobe.com/uk/images/beautiful-female-tennis-player-serving/128935730)  
+    * file #: 128935730
+    * Photo uploaded to Adobe Stock by NDABCREATIVITY
+
 This image was used as the Upload page (upload.html) background as the player is reaching up for the ball in the serve that she is doing. 
 I tied this in with upload and thought this would be a sort of subtle blend between the two, although I’m not expecting users to make this connection, but the image works well with the layout and that is key to good design and user experience. 
 In order for the form to show I will overlay a transparent box to help users see the form better.
 
-3. [Tennis player serving in the match](https://stock.adobe.com/uk/images/tennis-player-serving-in-the-match/283177782) 
+3. [Tennis player serving in the match](https://stock.adobe.com/uk/images/tennis-player-serving-in-the-match/283177782)  
 * file #: 283177782
-* Photo uploaded to Adobe Stock by Jacob Lund      
+* Photo uploaded to Adobe Stock by Jacob Lund
+
 This image was used as the Contact page (contact.html) background because the player is reaching out to hit the ball, also in reaching out you can say, if you have any questions just reach out to us. 
 I’m not expecting the users to make the connection between the image and the sayings. The image complements the page layout and colour theme too. So users are able to use the contact form I will overlay a transparent box to help users see the form better.
 
