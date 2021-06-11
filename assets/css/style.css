@@ -12,7 +12,7 @@
     font-family: Montserrat, sans-serif;
     color: #df6530;
     font-size: 11pt;
-    margin: 15px;
+    padding: 15px;
     text-align: right;
 }
 
@@ -28,17 +28,24 @@
 /* ------------------------------------------- Home Hero Image */
 
 .hero {
+
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+    /*
     margin-top: 100px;
     margin-bottom: 150px;
+
+    */
 }
 
 .home-hero {
     position: relative;
-    max-width: 110%;
-    width: auto;
+    max-width: 115%;
+    margin-left: 0;
+    margin-right: 0;
     height: auto;
-    padding: 0;
-    margin: 0;
+  
 }
 
 
@@ -47,7 +54,6 @@
 .blue-box { 
     position: relative;
     padding: 0;
-    margin: 0;
     background: #2a5490;
 }
 
@@ -81,8 +87,7 @@
 .why-header {
     font-family: Montserrat, sans-serif;
     text-align: center;
-
-    padding-bottom: 1px;
+    padding-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -92,7 +97,7 @@
     font-family: Montserrat, sans-serif;
     width: 50%;
     text-align: justify;
-    padding-bottom: 120px;
+    padding-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
     font-size: medium;
@@ -102,12 +107,13 @@
 
 .about-section {
     background-color: #fafafa;
-    padding-top: 90px;
+    padding-top: 100px;
   } 
 
 .about-us {
     font-family: Montserrat, sans-serif;
     text-align: center;
+    padding-bottom: 60px;
 }
 
 /* ------------------------------------------- About Us - How can we help you? */
