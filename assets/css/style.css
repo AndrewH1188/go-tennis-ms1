@@ -28,25 +28,22 @@
 /* ------------------------------------------- Home Hero Image */
 
 .hero {
-
     padding-top: 100px;
     padding-bottom: 150px;
-
-    /*
-    margin-top: 100px;
-    margin-bottom: 150px;
-
-    */
 }
+
+
 
 .home-hero {
     position: relative;
-    max-width: 115%;
-    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
     margin-right: 0;
-    height: auto;
-  
+    margin-left: 0;
+    max-width: 100%;
+    min-width: 20%;
 }
+
 
 
 /* ------------------------------------------- Home Welcome Box */
@@ -61,7 +58,7 @@
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     position: relative;
-    padding-top: 55%;
+    padding-top: 45%;
     padding-right: 10%;
     padding-left: 10%;
     text-align: center;
@@ -76,7 +73,7 @@
     position: relative;
     padding-right: 10%;
     padding-left: 10%;
-    padding-bottom: 55%;
+    padding-bottom: 45%;
     text-align: center;
     color: #fff; 
 }
@@ -228,8 +225,6 @@ p.donate {
 /* ------------------------------------------- Upload Form */
 
 
-
-
 .upload-pic {
     position: absolute;
     max-width: auto;
@@ -239,9 +234,10 @@ p.donate {
 }
 
 
-/* taken from the Love Running Code Institute project and amended in places wo match what I am expecting to see based on my designs */
 
-.form-section {
+/* taken from the Love Running Code Institute project and amended in places to match what I am expecting to see based on my designs */
+
+.upload-form-section {
     clear: left;
     background-size: cover;
     background-position: center;
@@ -249,14 +245,15 @@ p.donate {
 
 }
 
-.signup-form {
+.upload-form {
     font-family: Montserrat, sans-serif;
-    margin-top: 280px;
+    padding-top: 0;
     background-color: rgba(255, 255, 255, 0.555);
     max-width: 500px;
     position: absolute;
     left: 45px;
     padding: 30px;
+    padding-bottom: 30px;
 }
 
 .text-input {
@@ -324,18 +321,18 @@ p.contact {
     z-index: -1;
 }
 
-/* taken from the Love Running Code Institute project and amended in places wo match what I am expecting to see based on my designs */
+/* taken from the Love Running Code Institute project and amended in places to match what I am expecting to see based on my designs */
 
-.form-section {
+.contact-form-section {
     clear: left;
     background-size: cover;
     background-position: center;
     height: 900px;
 }
 
-.signup-form {
+.contact-form {
     font-family: Montserrat, sans-serif;
-    margin-top: 260px;
+    padding-top: 260px;
     background-color: rgba(255, 255, 255, 0.555);
     max-width: 500px;
     position: absolute;
