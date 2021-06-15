@@ -63,6 +63,8 @@
     position: relative;
     padding: 0;
     background: #2a5490;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .welcome { 
@@ -96,20 +98,15 @@
     font-family: Montserrat, sans-serif;
     text-align: center;
     padding-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
 .why-text {
     font-family: Montserrat, sans-serif;
-    /*width: 50%;*/
     text-align: justify;
     padding-bottom: 220px;
     padding-left: 60px;
     padding-right: 60px;
-    /*margin-left: auto;
-    margin-right: auto;*/
     font-size: medium;
 }
 
@@ -390,17 +387,25 @@ p.contact {
 
 .footer {
     background-color: #2a5490;
-    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    border: 100000px;
+    max-width: 100%;
     min-width: 100%;
 }
+
+
+
+
 
 .title {
     font-family: Montserrat, sans-serif;
     font-size: 14.5px;
     color: #fff;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .sponsors {
@@ -410,7 +415,8 @@ p.contact {
 .social-media {
     font-size: 20px;
     margin-top: -30px;
-    padding-right: 26px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 .social-media a{
@@ -424,6 +430,8 @@ p.contact {
 .supporting-logos {
     margin-top: -30px;
     padding-top: 0;
+    padding-right: 10px;
+    padding-left: 90px;
 }
 
 
