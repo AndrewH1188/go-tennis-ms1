@@ -193,6 +193,11 @@
 }
 
 
+.carousel-inner {
+    padding-bottom: 20px;
+}
+
+
 
 /* ------------------------------------------- Upload Text */
 
@@ -387,16 +392,16 @@ p.contact {
 
 .footer {
     background-color: #2a5490;
+    position: absolute;
     padding-top: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    border: 100000px;
     max-width: 100%;
     min-width: 100%;
 }
 
-
-
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 .title {
@@ -411,6 +416,7 @@ p.contact {
 .sponsors {
     margin-top: -30px;
 }
+
 
 .social-media {
     font-size: 20px;
