@@ -29,7 +29,7 @@
 
 .hero {
     padding-top: 100px;
-    padding-bottom: 220px;
+    padding-bottom: 180px;
 }
 
 .container-fluid {
@@ -448,72 +448,43 @@ p.contact {
 /* ------------------------------------------- Media Queries */
 
 
-
-
 /*
+
+
 @media (min-width: 992px) {
-    .hero {
-    max-width: 100%;
-    }
-}
 
 
- @media (max-width: 800px) {
-.blue-box {
-    flex-direction: row;
-
-
-
-  }
-}
-
-
-
-
-.blue-box { 
-    position: relative;
-    padding: 0;
-    margin: 0;
-    background: #2a5490;
-}
-
-.welcome { 
+.title {
     font-family: Montserrat, sans-serif;
-    font-weight: 400;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 45%;
-    margin-right: 10%;
-    margin-left: 10%;
-    top: 60px;
-    right: auto;
-    height: auto; 
-    width: auto;
-    text-align: center;
-    color: #fff; 
+    font-size: 14.5px;
+    color: #fff;
+ 
+}
+
+.sponsors {
+    margin-top: -30px;
 }
 
 
-.tips { 
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
-    float: right;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-right: 10%;
-    margin-left: 10%;
-    top: 60px;
-    right: auto;
-    height: auto; 
-    width: auto;
-    text-align: center;
-    color: #fff; 
+.social-media {
+    font-size: 20px;
+    margin-top: -30px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
+.social-media a{
+    color: #fff;
+}
 
+.social-media a:hover{
+    color: #c7d7f0;
+}
 
-
-
+.supporting-logos {
+    margin-top: -30px;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-left: 90px;
+}
 */
