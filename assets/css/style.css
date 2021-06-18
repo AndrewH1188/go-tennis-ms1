@@ -307,16 +307,9 @@ p.donate {
 .btn-success:hover {
     background-color: #2a5490;
     border-color: #2a5490;
+    padding-top: 10px;
 }
 
-.we-transfer {
-    color: #2a5490;
-    text-decoration: none !important;
-}
-
-.we-transfer .a:hover {
-    color: #df6530;
-}
 
 
 /* ------------------------------------------- Contact Text */
@@ -324,15 +317,16 @@ p.donate {
 .contact-heading { 
     font-family: Montserrat, sans-serif;
     color: #2a5490;
-    margin-top: 140px;
-    margin-left: 61px; 
+    padding-top: 140px;
+    padding-left: 61px; 
 }
 
 p.contact {
     font-family: Montserrat, sans-serif;
-    margin-top: 10px;
-    margin-left: 61px;
-    margin-right: 200px;
+    padding-top: 10px;
+    padding-left: 61px;
+    padding-right: 100px;
+    padding-bottom: 20px;
 }
 
 
@@ -352,16 +346,15 @@ p.contact {
     clear: left;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 950px;
 }
 
 .contact-form {
     font-family: Montserrat, sans-serif;
     padding-top: 260px;
     background-color: rgba(255, 255, 255, 0.555);
-    max-width: 500px;
+    max-width: 100%;
     position: absolute;
-    left: 45px;
     padding: 30px;
 }
 
@@ -371,6 +364,20 @@ p.contact {
     margin: 5px 0 20px 0;
     border: 0.5px solid #000000;   
 }
+
+
+/* NEED TO FIX THIS PART OF THE TEST INPUT BOX
+
+element.style {
+    border: 0.5px solid #000000;
+}
+
+
+element.style:hover {
+    border-color: #df6530;
+}
+
+*/
 
 .text-input:hover {
     border-color: #df6530;
