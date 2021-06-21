@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +11,9 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400&display=swap">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel='icon' href='assets/images/go-favicon.jpg' type='image/x-icon'/>
     <title>Go Tennis System | Upload</title>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-xs navbar-light bg-white fixed-top">
         <a class="navbar-brand" href="index.html"><img src="assets/images/go-logo.svg" height="70" width="200"
@@ -32,11 +31,7 @@
             </div>
         </div>
     </nav>
-
-
-
-
-    <style>
+ <style>
         body {
             background-image: url("assets/images/upload.jpg");
             clear: left;
@@ -52,24 +47,24 @@
 
 
     <section class="upload-form-section">
+        <h4 class="submit-heading">Submit and showcase your skills</h4>
+                    <p class="donate">Please donate, fill in the form and upload your video. Our friendly coaches will
+                        get back to you with our thoughts and constructive feedback.</p>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h4 class="submit-heading">Submit and showcase your skills</h4>
-                    <p class="donate">Please donate, fill in the form and upload your video. Our friendly coaches will
-                        get back to you with our thoughts and constructive feedback.</p>
                     <form class="upload-form" method="POST" action="https://formdump.codeinstitute.net/">
                         <label for="name">Your Name:</label>
                         <input type="text" id="name" name="name" class="text-input" required>
-                        <label for="email">Your Email (that was used to donate):</label>
-                        <input type="email" name="email_address" id="email" class="text-input" required>
+                        <label for="email">Your Email (used to donate):</label>
+                        <input type="email" name="email" id="email" class="text-input" required>
                         <label for="phone">Your Phone Number:</label>
-                        <input type="text" id="phone_number" name="phone_number" class="text-input" required>
-                        <p>I’d prefer to be contacted by:</p>
-                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone" class="text-input" required>
+                        <p>I’d prefer to be contacted by:</p> 
+                        <label for="phone">Phone</label> 
                         <input type="radio" name="contact_preference" id="phone" value="phone" required>
-                        <label for="email">Email</label>
-                        <input type="radio" name="contact_preference" id="email_address" value="email" required>
+                        <label for="email">Email</label> 
+                        <input type="radio" name="contact_preference" id="email" value="email" required>
                         <label for="exampleFormControlFile1"></label>
                         <input type="file" class="form-control-file" id="exampleFormControlFile1">
                         <button type="submit" class="btn btn-success upload-button"> Upload <i
