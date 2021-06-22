@@ -413,11 +413,6 @@ element.style:hover {
     margin-right: 0;
 }
 
-
-
-
-
-
 .sponsored-by  {
     font-family: Montserrat, sans-serif;
     font-size: 14.5px;
@@ -487,48 +482,7 @@ element.style:hover {
     margin-right: 18px;
 }
 
-
-
-/* ------------------------------------------- Media Queries */
-
-
-/*
-
-
-@media (min-width: 992px) {
-
-
-.title {
-    font-family: Montserrat, sans-serif;
-    font-size: 14.5px;
-    color: #fff;
- 
+div.col-md-4.col-lg-4.col-xl-4.mx-auto.mt-4.text-md-start {
+    position: relative;
+    max-width: 75%;
 }
-
-.sponsors {
-    margin-top: -30px;
-}
-
-
-.social-media {
-    font-size: 20px;
-    margin-top: -30px;
-    padding-right: 16px;
-    padding-left: 16px;
-}
-
-.social-media a{
-    color: #fff;
-}
-
-.social-media a:hover{
-    color: #c7d7f0;
-}
-
-.supporting-logos {
-    margin-top: -30px;
-    padding-top: 0;
-    padding-right: 10px;
-    padding-left: 90px;
-}
-*/
