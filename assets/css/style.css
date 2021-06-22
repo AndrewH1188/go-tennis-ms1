@@ -408,7 +408,6 @@ element.style:hover {
     min-width: 100%;
 }
 
-
 .row {
     margin-left: 0;
     margin-right: 0;
@@ -416,34 +415,33 @@ element.style:hover {
 
 
 
-.col-4 {
-    min-width: 100%;
-}
 
 
-.list-inline-item {
-    padding-right: 10px;
-}
 
 .sponsored-by  {
     font-family: Montserrat, sans-serif;
     font-size: 14.5px;
     color: #fff;
-    padding-top: 20px;
-    padding-right: 10px;
-    margin-left: 0;
-}
-
-.sponsors {
+    margin-top: 0;
+    padding-top: 0px;
     padding-left: 18px;
+    padding-right: 10px;
 }
 
+.babolat {
+    margin-left: 18px;
+}
+
+.lta-britain {
+    margin-left: 10px;
+}
 
 .follow-us {
     font-family: Montserrat, sans-serif;
     font-size: 14.5px;
     color: #fff;
-    padding-top: 20px;
+    margin-top: 0;
+    padding-top: 0px;
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
@@ -463,110 +461,31 @@ element.style:hover {
     color: #c7d7f0;
 }
 
-
-
 .supporting-p {
     font-family: Montserrat, sans-serif;
     font-size: 14.5px;
     color: #fff;
-    padding-top: 20px;
-    padding-right: 10px;
+    margin-top: 0;
+    padding-top: 0px;
+    padding-right: 18px;
     padding-left: 10px;
     text-align: right;
 }
 
 .supporting-logos {
     padding-top: 0;
-    padding-right: 10px;
-    padding-left: 90px;
+    padding-bottom: 20px;
     float: right;
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-/* ------------------------------------------- Footer */
-
-
-
-
-/*
-
-.footer {
-    background-color: #2a5490;
-    position: absolute;
-    padding-top: 10px;
-    max-width: 100%;
-    min-width: 100%;
+.dogs-trust {
+    margin-right: 10px;
 }
 
-.row {
-    margin-left: 0;
-    margin-right: 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+.chesterfield-rescue {
+    margin-right: 18px;
 }
-
-
-.title {
-    font-family: Montserrat, sans-serif;
-    font-size: 14.5px;
-    color: #fff;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.sponsors {
-    margin-top: -30px;
-}
-
-
-.social-media {
-    font-size: 20px;
-    margin-top: -30px;
-    padding-right: 16px;
-    padding-left: 16px;
-}
-
-.social-media a{
-    color: #fff;
-}
-
-.social-media a:hover{
-    color: #c7d7f0;
-}
-
-.supporting-logos {
-    margin-top: -30px;
-    padding-top: 0;
-    padding-right: 10px;
-    padding-left: 90px;
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
