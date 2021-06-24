@@ -189,24 +189,19 @@
     position: relative; 
 }
 
-
 .fa-angle-left, .fa-angle-right {
     color:#2a5490;
     font-size: 25px;
     padding-top: 90px;
 }
 
-
-
 #carouselExampleIndicators {
     height:100%;
 }
 
-
 .carousel-inner {
     padding-bottom: 20px;
 }
-
 
 
 /* ------------------------------------------- Upload Text */
@@ -235,18 +230,11 @@ p.donate {
 }
 
 
-
 /* ------------------------------------------- Upload Form */
 
-
 .upload-pic {
-    position: absolute;
-    max-width: auto;
-    max-height: auto;
-    padding: 0;
-    z-index: -1;
+    position: relative;
 }
-
 
 /* taken from the Love Running Code Institute project and amended in places to match what I am expecting to see based on my designs */
 
@@ -255,6 +243,7 @@ p.donate {
     background-size: cover;
     background-position: center;
     height: 950px;
+    position: relative;
 }
 
 .upload-form {
@@ -262,8 +251,9 @@ p.donate {
     padding-top: 260px;
     background-color: rgba(255, 255, 255, 0.555);
     max-width: 90%;
-    position: relative;
+    position: absolute;
     padding: 30px;
+    clear: initial;
 }
 
 .submit-heading { 
@@ -286,7 +276,6 @@ p.donate {
     margin: 5px 0 20px 0;
     border: 0.5px solid #000000;    
 }
-
 
 .text-input:hover {
     border-color: #df6530;
@@ -316,7 +305,6 @@ p.donate {
 }
 
 
-
 /* ------------------------------------------- Contact Text */
 
 .contact-heading { 
@@ -338,8 +326,6 @@ p.contact {
 
 .contact-pic {
     position: absolute;
-    max-width: auto;
-    max-height: auto;
     padding: 0;
     z-index: -1;
 }
@@ -502,6 +488,7 @@ div.col-md-4.col-lg-4.col-xl-4.mx-auto.mt-4.text-md-start {
 /* ------------------------------------------- Media Queries */
 
 
+/* ------------------------------------------- Footer */
 
 @media (max-width: 576px) { 
     .sponsors {
@@ -551,6 +538,94 @@ div.col-md-4.col-lg-4.col-xl-4.mx-auto.mt-4.text-md-start {
     }
 }
 
+/* ------------------------------------------- Upload Form */
 
+@media (max-width: 576px) { 
+    .upload-form-section {
+    height: 1159px;
+    width: auto;
+    align-items: center;
+    }
+}
+  
+@media (max-width: 768px) { 
+    .upload-form-section {
+    height: 1159px;
+    width: auto;
+    align-items: center;
+    }
+}
 
+@media (max-width: 576px) {
+    h4.submit-heading {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
 
+@media (max-width: 768px) { 
+    h4.submit-heading {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    p.donate {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
+@media (max-width: 768px) { 
+    p.donate {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+}
+
+/* ------------------------------------------- Contact Form */
+
+@media (max-width: 576px) { 
+    .contact-form-section {
+    height: 1159px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+}
+  
+@media (max-width: 768px) { 
+    .contact-form-section {
+    height: 1159px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    h4.contact-heading {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
+@media (max-width: 768px) { 
+    h4.contact-heading {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    p.contact {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+
+@media (max-width: 768px) { 
+    p.contact {
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+}
