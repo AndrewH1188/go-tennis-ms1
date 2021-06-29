@@ -1,8 +1,12 @@
 # Go Tennis System
 
+This is a website designed to help people interested in one on one tennis coaching recieve this online. By putting this service online it doesn't restrict where abouts the user
+is in the world or any problems like the pandemic of which we are currently facing. Also this will help users with their own video. diary so they can see how much they have progressed.
 
-View the live site [here:] (https://                       )
+## Showcase
+![responsive-screenshot](assets/images/testing/go-responsiveness.jpeg)
 
+A deployed version of my website can be found [here](https://andrewh1188.github.io/go-tennis-ms1/)
 
 This domain will allow you to access the Go Tennis System website, which I have completed as part of the Code Institute Milestone 1 Project.
 
@@ -16,6 +20,8 @@ This website is designed to be responsive on a range of devices and browsers, al
         * [Frequent User Goals](#frequent-user-goals)
         * [User Customer Goals](#user-goals)
         * [Business Goals](#business-goals)
+        * [Scope](#scope)   
+        * [Structure](#structure) 
     * [Design](#design)
     * [Imagry](#imagry)
     * [Wireframes](#wireframes)
@@ -45,7 +51,7 @@ This has been bought about because of the current pandemic and my Tennis coach w
 * How do I receive the coaching / feedback?
 * How much is the coaching / feedback service?
 * Is this unique to me?
-* How do I do the shot / how can I perfect my shot
+* How do I do the shot / how can I perfect my shot and how can this help my game?
 * How do I do something that isn’t how everyone else does it, for example how can I be  unique?
 * Does this service offer coaching to suit me at my level and can I progress?
 
@@ -88,6 +94,19 @@ The business goals and outcomes that Go Tennis System want to receive from this 
 *  In having the website have the users/customers interact with this by means of uploading their videos for coaching/assessment.
 *  Retain customers through USP (Unique Selling Points) and offers that make Go Tennis the go to place for this kind of service. To go on and add a subscription service to give users/customers the sense of commitment and to retain them too. Yes ok you could watch YouTube videos, but most often these steps are not relevant to the player watching, the reason is the player watching will want to play their way, a way that is comfortable and controllable to them (at the start, as playing matches/tournaments users will be expected to play to the standard of the other player if not better, if they are to really compete).
 *  By providing coaching at your level and pace this will help with confidence for the  users/customers, meaning they will interact with the site more often as they seek to improve and learn, this will give the website stable traffic to start with but over time the more users, the more the business can grow.
+
+
+#### Scope  
+I want my users to easily understand and learn what Go Tennis System has to offer them and have achieved this on the home page whilst giving the user the ability to contact for any information that may have been overlooked when putting together the text.
+
+
+#### Structure
+
+I have incorporated the about page into the home page as this flowed better especially with the carousel of testimonials. 
+I have been able to add the ability to chose the file the user wishes to upload and have been able to make the uploads process a lot cleaner and easier to use for the user which is great for UX.
+After my mentoring session with Antonija it was decided that the new layout was a lot better, but with some small tweeks this would look amazing. I took out a lot of the coloured heading bars and 
+made the footer completly blue with the white logos and text. I think if I had a bit more time I would have looked into adding a subscribe part to the page, although this could be a part on its own
+page as I wouldn't want to make the page appear too cluttered.
 
 ## Design
 The site is designed over three pages although has four links. There is the index which also houses the about section, uploads and contact pages which are stand alone.
@@ -136,14 +155,16 @@ This image was used as the Contact page (contact.html) background because the pl
 I’m not expecting the users to make the connection between the image and the sayings. The image complements the page layout and colour theme too. So users are able to use the contact form I will overlay a transparent box to help users see the form better.
 
 ## Wireframes
-[View](https://github.com/AndrewH1188/go-tennis/blob/1276f7341b746d14dc45546e5870d2f93ec737f3/wireframes.pdf) the wireframes that I have created using Balsamiq.  
-All of the wireframes have been uploaded into the same PDF for ease of accessability.
+The original wireframes can be found [here](/workspace/go-tennis-ms1/original-wireframes.pdf)
+These wireframes were very basic and all pages were going to look the same. After having my first mentor session with Antonija Simic I set to work to create something a lot different, but with some elements that were the same.
 
 ### Changes to wireframes
-The original wireframes that I have [here](https://github.com/AndrewH1188/go-tennis/blob/1276f7341b746d14dc45546e5870d2f93ec737f3/wireframes.pdf) my mentor Antonija Simic said looked good but needed some parts removing as it looked too much like a newspaper.  
-The wireframes havent been changes as there were minimal changes but the actual site that has been produced as the final outcome shows these changes. These changes are mainly removing colours from behind headings as well as changing some colours to suit better in areas such as the footer and the about us section to make this look more like a website and less like a newspaper.  
+To view the new wireframes that I have created using [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwieuGBhAsEiwA1Ly_nRpVy2nQlPQyvPKufSrbI7syDEct7PMuOmzBSyoyuDh_ofosfd1V8BoCI20QAvD_BwE) please click [here](/workspace/go-tennis-ms1/wireframes.pdf) .  
+my mentor Antonija Simic said looked good but needed some parts removing as it looked too much like a newspaper.  
+The wireframes haven't been changes as there were minimal changes but the actual site that has been produced as the final outcome shows these changes. These changes are mainly removing colours from behind headings as well as changing some colours to suit better in areas such as the footer and the about us section to make this look more like a website and less like a newspaper.  
 In respect of the design the changes that have been implemented look a lot better on the actual site. I have the designs here that were then done in Adobe Indesign based on the helpful and constructive feedback from my mentor Antonija Simic. 
 
+All of the wireframes have been uploaded into the same PDF for ease of accessability.
 
 ## Features
 * Responsive on all browsers and devices regardless of viewport size

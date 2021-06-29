@@ -459,14 +459,15 @@ element.style:hover {
     color: #fff;
     margin-top: 0;
     padding-top: 0px;
-    padding-right: 18px;
-    padding-left: 10px;
+    padding-left: 18px;
+    padding-right: 10px;
 }
 
 .supporting-logos {
     padding-top: 0;
     padding-bottom: 20px;
     position: relative;
+    padding-left: 10px;
 }
 
 .dogs-trust {
@@ -498,6 +499,10 @@ div.col-md-4.col-lg-4.col-xl-4.mx-auto.mt-4.text-md-start {
 
     .support {
     text-align: center!important;
+}
+
+    .dogs-trust .chesterfield-rescue {
+    text-align: center!important;
     }
 }    
 
@@ -507,36 +512,45 @@ div.col-md-4.col-lg-4.col-xl-4.mx-auto.mt-4.text-md-start {
     text-align: center!important;
     }
 
-
     .support {
     text-align: center!important;
-    }
-} 
+}
 
+    .dogs-trust .chesterfield-rescue {
+    text-align: center!important;
+}
+} 
 
 
 @media (max-width: 992px) { 
     .sponsors {
-    text-align: left;
+    text-align: left!important;
     }
-
 
     .support {
-    text-align: right;
-    }
+    text-align: right!important;
+}
+
+    img.list-inline-item.dogs-trust img.list-inline-item.chesterfield-rescue {
+    text-align: end!important;
+}
 }  
 
 
 @media (max-width: 1200px) {     
     .sponsors {
-    text-align: left;
+    text-align: left!important;
     }
-
 
     .support {
-    text-align: right;
-    }
+    text-align: right!important;
 }
+
+    img.list-inline-item.dogs-trust img.list-inline-item.chesterfield-rescue {
+    text-align: end!important;
+}
+}
+
 
 /* ------------------------------------------- Upload Form */
 
