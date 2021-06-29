@@ -26,6 +26,8 @@ This website is designed to be responsive on a range of devices and browsers, al
     * [Imagry](#imagry)
     * [Wireframes](#wireframes)
 2. [Features](#features)
+    * [Existing-features](#existing-features)
+    * [Future-features](#future-features)
 3. [Technologies and Languages Used](#technologies)
 4. [Testing](#testing)
 5. [Deployment](#deployment)
@@ -101,7 +103,6 @@ I want my users to easily understand and learn what Go Tennis System has to offe
 
 
 #### Structure
-
 I have incorporated the about page into the home page as this flowed better especially with the carousel of testimonials. 
 I have been able to add the ability to chose the file the user wishes to upload and have been able to make the uploads process a lot cleaner and easier to use for the user which is great for UX.
 After my mentoring session with Antonija it was decided that the new layout was a lot better, but with some small tweeks this would look amazing. I took out a lot of the coloured heading bars and 
@@ -167,8 +168,28 @@ In respect of the design the changes that have been implemented look a lot bette
 All of the wireframes have been uploaded into the same PDF for ease of accessability.
 
 ## Features
-* Responsive on all browsers and devices regardless of viewport size
-* Elements that are interactive to engage users to visit and interact with engage with the site.
+This section is a brief highlight of features that this site contains, why they are the way they are as well as any future improvements or additions that would take this site from strength to strength.
+* All pages are to be visually appealing with the home page as the landing page giving users the information they require.
+* The about section has been incorporated in the home page as this fits well with the rest of the content, namely the carousel at the bottom of the page.
+* The nav bar I have enabled the about link to jump to this section on the home page, making this user friendly.
+* The nav bar allows users to quickly jump between the pages and also show the user which page they are on as the active link is a different colour. The links all have a hover colour too in order to show this is an active link.
+* The nav drop down has the hamburger icon which works well on desktop as well as smaller devices such as phones or tablets.
+* The contact form allows users to get in contact with any questions they have like pricing or trouble with uploading etc (This will be linked to the correct address in the future). 
+* This website is responsive on all browsers and devices regardless of viewport size
+* Elements are interactive to engage users to visit and interact with and engage with the site as intended.
+
+### Exhisting features
+* The user can fill in their details, donate and choose their video to upload then submit this for feedback and coaching on the uploads page.
+* The footer has the ability for the features to stack on top of each other with a thin horizontal rule to break up the sections.
+* The links to the footer also have the hover function and link to the social media sites and have the ability through the Whatsapp to open Whatsapp and send a message. 
+* I have created a basic favicon in order to personalise the site a bit more and give it a bit more of a finished feel.
+
+### Future features
+* The Facebook and Instagram link to the correct pages although the Youtube and Whatsapp will be linked to the correct page and phone number.
+* Link the Upload and the Contact forms to the correct email address / location.
+* For a future section I would like to compile all the FAQs or Frequently Asked Questions and have this as another page in order to better help and serve the user / customer.
+* In order to keep the page fresh and relevant I would like to change the hero image, add new testimonials from actual users as well as update / expand the existing text.
+* I would in future like to incorporate this website into an easy to use app, in the app I would like this to hold all of the coaching videos and give the user the ability to view the content through a subscription service.
 
 
 ## Technologies and Languages Used
@@ -182,8 +203,10 @@ This project was built using the following languages and technologies:
 ## Libraries frameworks and online resources:
 * [Bootstrap 4.6.0:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
     Bootstrap was used to help with the styling of the website in forming the grid layout as well as aid the responsiveness of the site.
+* Google Chrome Dev Tools: For testing purposes.
+* Lighthouse: Used for testing website performance, check for Performance, Accessibility, Best Practices and Search Engine Optimization (SEO).
 * [Google Fonts:](https://fonts.google.com/)
-    Google fonts was used to import ‘Montserrat’ font into the style.css file which is used on all pages throughout the project.
+    Google fonts was used to import ‘Montserrat’ font into the HTML which is used on all pages throughout the project.
 * [Font Awesome:](https://fontawesome.com/)
     Font Awesome icons were used on all pages throughout the website. The majority of these were in the Menu as well as the footer for the Social Media icons. I have added other Font Awesome icons to buttons as well as for the PayPal icon for the donate.
     * Here are a list of Icons that I have used within my site for the different pages/sections. These have all been styled using CSS. I have called the style tags the following:
@@ -204,7 +227,8 @@ fa-menu - this allows me to easily target only the menu icons with the CSS page
 fa-article - this allows me to easily target only the article icons with the CSS page  
 fa-button - this allows me to easily target only the button icons with the CSS page  
 fa-social - this allows me to easily target only the social media icons with the CSS page  
-
+* [W3C HTML-validator:](https://validator.w3.org/) Used to find mistakes in my HTML code and try to fix these. 
+* [Jigsaw:](https://jigsaw.w3.org/css-validator/) Used to find mistakes in my CSS code and try to fix these.
 * [Tiny PNG](https://tinypng.com/)  
     Tinypng was used to compress image sizes without loosing the quality. This is so that the website isn’t loading images that are large in storage size, but also so that the website can load the images and doesn’t keep users waiting as well as increasing the load time which would provide a bad UX.
 * [Online Convert.com](https://www.online-convert.com/result#j=3365cf39-bec6-4042-963c-4dbdf9f70817)  
@@ -216,8 +240,7 @@ fa-social - this allows me to easily target only the social media icons with the
 * [GitHub:](https://github.com/)  
     GitHub is used to store the code from the project after being pushed from Git.
 * [Balsamiq:](https://balsamiq.com/)  
-    Balsamiq was used to create the [wireframes](https://github.com/AndrewH1188/go-tennis-ms1/blob/640ce006dcd7485d5e1e87464bfdfda884662a2a/wireframes.pdf) during the design process.
-
+    Balsamiq was used to create the [wireframes](/workspace/go-tennis-ms1/wireframes.pdf) during the design process.
 
 
 ## Programmes:
@@ -226,6 +249,8 @@ fa-social - this allows me to easily target only the social media icons with the
 * [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)Adobe Illustrator was used to convert the Go Tennis logo to an SVG file.
 
 ## Testing ()
+
+
 
 
 
@@ -250,6 +275,6 @@ fa-social - this allows me to easily target only the social media icons with the
 
 ## Acknowledgements  
 Firstly I would like to thank my Mentor Antonija Simic for honest, helpful and continuous feedback, without this I wouldn’t have been able to design nor create something like I have, nor would I have pushed myself to learn new code or try new ideas either.  
-I would like to also thank Ulysees in Student Support as well as Jo, Tim, and the Tutor Support team at Code Institute for bearing with me, being so understanding as well as helping me to find the gremlins in the code as well as my errors. I would also like to thank Tutor Support for all their support that they have given to me to enable me to complete this project.  
+I would like to also thank Ulysees and Alexander in Student Support as well as Jo, Tim, Stephen, Igor, and the Tutor Support team at Code Institute for bearing with me, being so understanding as well as helping me to find the gremlins in the code as well as my errors. I would also like to thank Tutor Support for all their support that they have given to me to enable me to complete this project.  
 I would like to also thank my friend and Tennis Coach Adam Jameel for allowing me to do this project and use his business as the focus of my project as well as for his support too. I promise one day I will revisit this site once I have graduated and will produce something out of this world.  
 I would also like to thank others such as Stuart Crang at The Learning People Global, Jim Jenner my Tinnitus friend who I help, my Mum, Aunt, Uncle, Councillor friends Sarah Madigan and Caroline Wilkinson for their encouragement and support. It really means a lot to me and has picked me up, as well as kept me on track even if they know nothing about what I am doing (apart from my Uncle and Stuart).
