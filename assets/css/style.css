@@ -321,7 +321,6 @@ p.contact {
     padding-bottom: 20px;
 }
 
-
 /* ------------------------------------------- Contact Form */
 
 .contact-pic {
@@ -356,19 +355,6 @@ p.contact {
     border: 0.5px solid #000000;   
 }
 
-
-/* NEED TO FIX THIS PART OF THE TEST INPUT BOX
-
-element.style {
-    border: 0.5px solid #000000;
-}
-
-
-element.style:hover {
-    border-color: #df6530;
-}
-
-*/
 
 .text-input:hover {
     border-color: #df6530;
