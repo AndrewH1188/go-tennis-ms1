@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+        <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400&display=swap">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Go Tennis System | Home</title>
+</head>
+<body>
+ <nav class="navbar navbar-expand-xs navbar-light bg-white fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/go-logo.svg" height="70" width="200"
+                alt="Go Tennis System - The same game, just easier"></a>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right text-right" aria-labelledby="dropdownMenuButton">
+                <a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Home <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html#about"><i class="far fa-address-card"></i> About</a>
+                <a class="nav-link" href="upload.html"><i class="fas fa-upload"></i> Upload</a>
+                <a class="nav-link" href="contact.html"><i class="far fa-paper-plane"></i> Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+<!-- Form taken from Code Institute Love Running Project and amended to fit my designs -->
+
+
+
+
+
+
+
+<section class="form-section">
+    <div class="col-12 sm-4"><img src="assets/images/upload.jpg" class="upload-pic" alt="Tennis player serving on court">
+    <div class="row">
+            
+<h4 class="submit-heading">Submit and showcase your skills</h4>
+<p class="donate">Please donate, fill in the form and upload your video. <br> Our friendly coaches will get back to you with our thoughts and constructive feedback.</p>
+ 
+
+<form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" class="text-input" required>
+                 
+<label for="email">Your Email (that was used to donate):</label>
+<input type="email" name="email_address" id="email" class="text-input" required>   
+
+<label for="phone">Your Phone Number:</label>
+<input type="text" id="phone_number" name="phone_number" class="text-input" required>
+
+<p>I’d prefer to be contacted by:</p>
+
+<label for="phone">Phone</label>
+<input type="radio" name="contact_preference" id="phone" value="phone" required> 
+
+<label for="email">Email</label>
+<input type="radio" name="contact_preference" id="email_address" value="email" required>
+
+<button type="submit" class="btn btn-success upload-button">
+     Submit <i class="fas fa-upload"></i>
+</button>
+
+<p>To upload your footage please click <a class="we-transfer" href="https://wetransfer.com/" target="_blank">here</a></p>
+
+<p>I would like to make a donation that will shared with the supporting charities. <a href="https://www.paypal.com/" target="_blank"><i class="fab fa-cc-paypal"></i></a></p>
+
+
+
+
+</form>
+</div>
+</div>
+</section> 
+
+
+
+    <footer class="footer">
+        <div class="d-flex p-3 flex-nowrap justify-content-between title">
+            <div class="sponsored">Sponsors:</div>
+            <div class="follow">Follow us:</div>
+            <div class="supporting">Supporting:</div>
+        </div>
+        <div class="d-flex p-3 flex-nowrap justify-content-between">
+            <div class="sponsors">
+                <img class="list-inline-item" src="assets/images/babolat.png" height="20" width="80"
+                    alt="Babolat logo">
+                <img class="list-inline-item" src="assets/images/lta-britain.png" height="20" width="70"
+                    alt="LTA Tennis for Britain logo"></div>
+            <div class="social-media">
+                <ul>
+                    <li class="list-inline-item social-media"><a href="https://www.facebook.com/gotennissystem" target="_blank"><i
+                                class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span></a></li>
+                    <li class="list-inline-item social-media"><a href="https://instagram.com/gotennissystem?igshid=1waksnkd1kttd"
+                            target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span></a></li>
+                    <li class="list-inline-item social-media"><a href="https://www.youtube.com/" target="_blank"><i
+                                class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span></a></li>
+                    <li class="list-inline-item social-media"><a href="tel:07000000000" target="_blank"><i class="fab fa-whatsapp"
+                                aria-hidden="true"></i>
+                            <span class="sr-only">Whatsapp</span></a></li>
+                </ul>
+            </div>
+            <div class="supporting-logos">
+                <a href="https://www.dogstrust.org.uk/" target="_blank"><img class="list-inline-item"
+                        src="assets/images/dogs-trust.png" height="20" width="60"
+                        alt="Dogs Trust logo"></a>
+                <a href="https://www.chesterfieldanimalrescue.org.uk/" target="_blank"><img class="list-inline-item"
+                        src="assets/images/chesterfield-rescue.png" height="30" width="70"
+                        alt="Chesterfield Animal Rescue logo"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/14fbbe1178.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+</html>
