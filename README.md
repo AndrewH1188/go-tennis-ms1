@@ -29,7 +29,10 @@ This website is designed to be responsive on a range of devices and browsers, al
     * [Existing-features](#existing-features)
     * [Future-features](#future-features)
 3. [Technologies and Languages Used](#technologies)
+    * [Other Resources](#other-resources) 
 4. [Testing](#testing)
+    * [Implementation](#implementation)
+    * [Results](results)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
     * [Content](#content)
@@ -119,7 +122,10 @@ I have kept with the Montserrat font throughtout the site to keep with consisten
 
 I chose the colours based on the brief I was given by Adam my Tennis Coach as he likes blue and the orange compliments this nicely.
 
-
+I produced all of the mock up designs in [Adobe Indesign](https://www.adobe.com/uk/products/indesign.html) my initial layout and design can be viewed [here](/workspace/go-tennis-ms1/assets/images/designs/go-tennis-layout1.pdf).  
+After my first mentoring session with Antonija Simic and having recieved very constructive and helpful feedback I worked to make this a lot more like a web page rather than a leaflet or flyer like the initial design. My revised design can be viewed [here](/workspace/go-tennis-ms1/assets/images/designs/go-tennis-layout2.pdf). 
+After my second mentoring session with Antonija my vastly improved design required a final few tweeks to get it just right and can be viewed [here](/workspace/go-tennis-ms1/assets/images/designs/go-tennis-layout3-final.pdf). All of my designs show the menu collapsed as well as expanded and the buttons hovered over colours.
+   
 ## Imagry
 The Go Tennis System Logo and Slogan that is incorporated in the logo I will design using [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html) and then will export out as an SVG to make this able to load. When I had my first Mentoring Session with Antonija I asked how best to export the logo so this loads all the time and an SVG file was the best option Antonija said will load and not be broken across different browsers.
 
@@ -200,7 +206,7 @@ This project was built using the following languages and technologies:
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 
-## Libraries frameworks and online resources:
+## Libraries Frameworks and online resources:
 * [Bootstrap 4.6.0:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
     Bootstrap was used to help with the styling of the website in forming the grid layout as well as aid the responsiveness of the site.
 * Google Chrome Dev Tools: For testing purposes.
@@ -235,30 +241,96 @@ fa-social - this allows me to easily target only the social media icons with the
     Online Convert.com was used to change the Go Tennis Logo into a workable SVG image
 
 ## Tools:
+* [GitPod](https://www.gitpod.io/) was used to write the code using the template copies across from the Code Institute one that we set up during this part of the course.
 * [Git](https://git-scm.com/)  
     Git was used for version control having set up the GitPod terminal to commit and push to GitHub. 
 * [GitHub:](https://github.com/)  
-    GitHub is used to store the code from the project after being pushed from Git.
+    GitHub is used to store the code from the project after being pushed from Git.   
+* [GitHub Pages](https://pages.github.com/) was used to deploy the site and make this live.    
 * [Balsamiq:](https://balsamiq.com/)  
     Balsamiq was used to create the [wireframes](/workspace/go-tennis-ms1/wireframes.pdf) during the design process.
 
 
 ## Programmes:
 * [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html) Adobe InDesign was used to create the Go Tennis System logo, as well as a visual for what I would like the finished pages to look like. In Adobe InDesign using font Meedori Sans Regular I created the Go Tennis System Logo. I gave this a gradient and positioned the Go to the right.
-* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) Adobe Photoshop was used to resize logos for the website.
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) Adobe Photoshop was used to resize logos for the website as well as create the favicon.
 * [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)Adobe Illustrator was used to convert the Go Tennis logo to an SVG file.
 
-## Testing ()
+
+## Other Resources:
+* [Code Institute](https://codeinstitute.net/) and the learning that I have completed so far with them enabled me to put together this project.
+* [Code Institute Slack Community](https://slack.com/intl/en-no/) I have been asking questions with why elements aren't functioning as they should be and when I'd tried everything possible to try and fix these issues. I also used this to find the error(s) to enable this to function correctly.
+* [Stack Overflow](https://stackoverflow.com/) I have asked some questions on here too with regards to elements not working as well as sourced answers to help me too.
+* [Bootstrap Essentials](https://ajgreaves.github.io/bootstrap-grid-demo/) was used to get a better understanding for how the Bootstrap grid works.
+* [Am I Responsive](http://ami.responsivedesign.is/) was used for the screenshot of the mock up in the README.md file. 
+* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) was used to test sizes, check responsiveness and view the layouts as well as debug errors and problems I encountered along the way.
+* [Codepen.io](https://codepen.io/) was used to start and play with what I had here without affecting the otiginal files in GitPod.
+
+## Testing:
+Having had many sessions of tennis coaching and working with my tennis coach Adam Jameel I not only understand what he is looking for as a provider, but what as someone who has had coaching I would expect to see on the website so can target the right audience.
+I took into consideration that users would view this website on different devices with different screen sizes / viewport heights and widths. When it came to the design approach I used Bootstrap which mainly gave me the mobile first approach, I had to add media queries for the forms and the footer in order to make this responsive.
+I used Google Chrome Dev Tools to test the various layouts on different screens and sizes. I also used my Mac for a medium sized screen (13 inch), I hooked this up to my 32 inch TV via HDMI for a larger screen view, my 5th generation iPad (9.7 inch screen) for a medium view and my iPhone 11 (6.06 inch screen) for the smaller screens to test that what Google is showing with the Dev Tools matches the device.  
+By testing what I was seeing using the different methods as above I was able to identify issues where elements were not changing according to the screen they were being viewed on. I have also turned the screens on the devices in order to test the responsiveness based on how different users may be viewing the website, this also helps as on one screen it may display a layout or feature one way, 
+but on a different orientation it may display this function or feature a different way.
+
+
+## Implementation
+I have built many websites before but never in Git or fully in code so this is my first time of debugging. To do this I would mainly use Dev Tools in Google Chrome. Having built the majority with Bootstrap this allowed me to add features for the mobile first approach. In order to test measurements I would mainly put these at a higher value than required to test if these were working or not. 
+I used Lighthouse in the dev tools to check the performance of my website, both on desktop and on mobile. This allowed me to find errors in my code and fix these. The problem I have had with the Lighthouse is that although there are many positive aspects for all pages on the desktop view and the upload and contact there is a real issue with performance on the index page unfortunatley.
+I can see that some of the performance errors for the home page on the mobile view is because the images do not have sizes on them, but when I added these the W3 Validator didn't like this.
+
+   
+## Results 
+Whilst testing I found up with the following problems:
+* The nav bar wouldn’t display or function as I had intended per the design. When I had my Mentoring session with Antonija we looked at the Bootstrap equivalent that worked as close as intended, and so this was added into the code to replace the other that didn’t work as expected.
+* I copied what I had with my footer into the [test files](/workspace/go-tennis-ms1/test-files) on more than one occasion in order to try and correct the responsiveness and the alignment issues. I took a look online and was able to find the perfect footer from bootstrap which was added and works well especially with the responsiveness issue.
+* Another part of the [test files](/workspace/go-tennis-ms1/test-files) incorporates the carousel testing. I deleted some parts out from the Bootstrap carousel as the images and text were not laid out as I had originally planned. To fix this I decided to create the slides in Adobe InDesign and save these out as jpgs, this enabled me to upload and add the jpgs into the carousel easily and have the desired layout and positioning.
+* I have also been testing the background image and layout in the [test files](/workspace/go-tennis-ms1/test-files) upload test file. I wanted to play with this in a different file rather than loose all what I had achieved because I had something out of place. 
 
 
 
 
 
-## Deployment ()
 
-## Credits ()
 
-## Content ()
+I have added my results for all into the project and these are listed in my README.md file below:   
+![Home page Lighthouse desktop](assets/images/lighthouse/home-lighthouse-desktop.jpg)    
+![Home page Lighthouse mobile](assets/images/lighthouse/home-lighthouse-mobile.jpg)     
+![Upload page Lighthouse desktop](assets/images/lighthouse/upload-lighthouse-desktop.jpg)   
+![Upload page Lighthouse mobile](assets/images/lighthouse/upload-lighthouse-mobile.jpg)   
+![Contact page Lighthouse desktop](assets/images/lighthouse/contact-lighthouse-desktop.jpg)    
+![Contact page Lighthouse mobile](assets/images/lighthouse/contact-lighthouse-mobile.jpg)   
+   
+I have used the W3 validator to check my HTML and CSS code as well and have the results below:
+
+![Home page W3 test](assets/images/validator/home-w3-html.jpg)   
+![Upload page W3 test](assets/images/validator/upload-w3-html.jpg)   
+![Contact page W3 test](assets/images/validator/contact-w3-html.jpg)    
+![CSS W3 test](assets/images/validator/css-w3-validation.jpg)  
+
+With regards to the warnings for the index/home page there were many to start with, but the ones remaining I dont think are a real issue. The reason I think this is because 
+the about ID is required to link the about section in the nav menu. I did remove this but then couldn't access this from the nav bar. The other warning regarding the footer section
+I believe requires no action because this is for the blue box only, therefore there are no h2-h6 elements there which is why I have left these for all pages.
+The Upload and Contact have warnings and these relate to the background images, I have tried to fix these but was unable too, hence why these are still showing.
+Although there are many warnings for the CSS these all come from the Bootstrap and I'm not sure how to fix these.
+
+
+
+
+
+
+
+## Deployment:
+
+
+* [GitHub Pages](https://pages.github.com/) was used to deploy the site and make this live. 
+
+
+
+
+## Credits:
+
+## Content:
 
 
 
@@ -276,5 +348,6 @@ fa-social - this allows me to easily target only the social media icons with the
 ## Acknowledgements  
 Firstly I would like to thank my Mentor Antonija Simic for honest, helpful and continuous feedback, without this I wouldn’t have been able to design nor create something like I have, nor would I have pushed myself to learn new code or try new ideas either.  
 I would like to also thank Ulysees and Alexander in Student Support as well as Jo, Tim, Stephen, Igor, and the Tutor Support team at Code Institute for bearing with me, being so understanding as well as helping me to find the gremlins in the code as well as my errors. I would also like to thank Tutor Support for all their support that they have given to me to enable me to complete this project.  
+I would also like to thank the [Stack Overflow](https://stackoverflow.com) and [Slack](https://slack.com/intl/en-gb/) community for helping me fix issues and errors.
 I would like to also thank my friend and Tennis Coach Adam Jameel for allowing me to do this project and use his business as the focus of my project as well as for his support too. I promise one day I will revisit this site once I have graduated and will produce something out of this world.  
 I would also like to thank others such as Stuart Crang at The Learning People Global, Jim Jenner my Tinnitus friend who I help, my Mum, Aunt, Uncle, Councillor friends Sarah Madigan and Caroline Wilkinson for their encouragement and support. It really means a lot to me and has picked me up, as well as kept me on track even if they know nothing about what I am doing (apart from my Uncle and Stuart).
