@@ -451,6 +451,10 @@ p.contact {
   margin-right: 0;
 }
 
+.sponsors {
+  text-align: left !important;
+}
+
 .sponsored-by {
   font-size: 14.5px;
   color: #fff;
@@ -492,6 +496,10 @@ p.contact {
   color: #c7d7f0;
 }
 
+.support {
+  text-align: right !important;
+}
+
 .supporting-p {
   font-size: 14.5px;
   color: #fff;
@@ -519,24 +527,6 @@ p.contact {
 /* ------------------------------------------- Media Queries */
 
 /* ------------------------------------------- Footer */
-
-@media (max-width: 1200px) {
-  .sponsors {
-    text-align: left !important;
-  }
-
-  .support {
-    text-align: right !important;
-  }
-
-  img.list-inline-item.dogs-trust {
-    text-align: right !important;
-  }
-
-  img.list-inline-item.chesterfield-rescue {
-    text-align: right !important;
-  }
-}
 
 @media (max-width: 992px) {
   .sponsors {
@@ -646,13 +636,13 @@ p.contact {
 
 @media (max-width: 576px) {
   .upload-form-section {
-    height: 1160px;
+    height: 1120px;
     width: auto;
     align-items: center;
   }
 
   .contact-form-section {
-    height: 1160px;
+    height: 1120px;
     width: auto;
     align-items: center;
   }
