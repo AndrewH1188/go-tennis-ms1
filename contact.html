@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="This is my first website built as part of my portfolio for Go Tennis System as part of my Code Institute Milestone 1 Project">
+    <meta name="description"
+        content="This is my first website built as part of my portfolio for Go Tennis System as part of my Code Institute Milestone 1 Project">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -17,7 +18,7 @@
     <title>Go Tennis System | Contact</title>
 </head>
 
-<body>
+<body class="contact-page">
     <nav class="navbar navbar-expand-xs navbar-light bg-white fixed-top">
         <a class="navbar-brand" href="index.html"><img src="assets/images/go-logo.svg" height="70" width="200"
                 alt="Go Tennis System - The same game, just easier"></a>
@@ -34,15 +35,7 @@
             </div>
         </div>
     </nav>
-    <style>
-        body {
-            background-image: url("assets/images/contact.jpg");
-            clear: left;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    </style>
+
     <section class="contact-form-section">
         <h4 class="contact-heading">Like what you’ve seen and keen to know more?</h4>
         <p class="contact">Please get in touch to ask us any questions or to let us know how we can help you to better
@@ -58,12 +51,13 @@
                         <label for="phone">Your Phone Number:</label>
                         <input type="text" id="phone_number" name="phone" class="text-input" required>
                         <p>I’d prefer to be contacted by:
-                        <label for="phone">Phone</label>
-                        <input type="radio" name="contact_preference" id="phone" value="phone" required> &nbsp; &nbsp;
-                        <label for="email">Email</label>
-                        <input type="radio" name="contact_preference" id="email_address" value="email" required>
+                            <label for="phone">Phone</label>
+                            <input type="radio" name="contact_preference" id="phone" value="phone" required> &nbsp;
+                            &nbsp;
+                            <label for="email">Email</label>
+                            <input type="radio" name="contact_preference" id="email_address" value="email" required>
                         </p>
-                        <textarea style="width: 100%; height: 90px; overflow: auto; resize: none;"></textarea>
+                        <textarea class="text-area"></textarea>
                         <button type="submit" class="btn btn-success submit-button">Submit <i
                                 class="far fa-paper-plane"></i>
                         </button>
@@ -75,43 +69,46 @@
     </section>
     <section class="footer">
         <footer>
-            <div class="container"></div>
-            <div class="row">
-                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 text-md-start sponsors">
-                    <p class="sponsored-by">Sponsored by:</p>
-                    <img class="list-inline-item babolat" src="assets/images/babolat.png" height="20" width="80"
-                        alt="Babolat logo">
-                    <img class="list-inline-item lta-britain" src="assets/images/lta-britain.png" height="20" width="70"
-                        alt="LTA Tennis for Britain logo">
-                </div>
-                <hr class="w-100 clearfix d-md-none" />
-                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 text-md-start social">
-                    <p class="follow-us">Follow Team Go Tennis System:</p>
-                    <ul class="social-media">
-                        <li class="list-inline-item social-media"><a href="https://www.facebook.com/gotennissystem"
-                                target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span></a></li>
-                        <li class="list-inline-item social-media"><a
-                                href="https://instagram.com/gotennissystem?igshid=1waksnkd1kttd" target="_blank"><i
-                                    class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span></a></li>
-                        <li class="list-inline-item social-media"><a href="https://www.youtube.com/" target="_blank"><i
-                                    class="fab fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">YouTube</span></a></li>
-                        <li class="list-inline-item social-media"><a href="tel:07000000000" target="_blank"><i
-                                    class="fab fa-whatsapp" aria-hidden="true"></i>
-                                <span class="sr-only">Whatsapp</span></a></li>
-                    </ul>
-                </div>
-                <hr class="w-100 clearfix d-md-none" />
-                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 support">
-                    <p class="supporting-p">Supporting:</p>
-                    <div class="supporting-logos">
-                        <a href="https://www.dogstrust.org.uk/" target="_blank"><img class="list-inline-item dogs-trust"
-                                src="assets/images/dogs-trust.png" height="20" width="60" alt="Dogs Trust logo"></a>
-                        <a href="https://www.chesterfieldanimalrescue.org.uk/" target="_blank"><img
-                                class="list-inline-item chesterfield-rescue" src="assets/images/chesterfield-rescue.png"
-                                height="30" width="70" alt="Chesterfield Animal Rescue logo"></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 text-md-start sponsors">
+                        <p class="sponsored-by">Sponsored by:</p>
+                        <img class="list-inline-item babolat" src="assets/images/babolat.png" height="20" width="80"
+                            alt="Babolat logo">
+                        <img class="list-inline-item lta-britain" src="assets/images/lta-britain.png" height="20"
+                            width="70" alt="LTA Tennis for Britain logo">
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 text-md-start social">
+                        <p class="follow-us">Follow Team Go Tennis System:</p>
+                        <ul class="social-media">
+                            <li class="list-inline-item social-media"><a href="https://www.facebook.com/gotennissystem"
+                                    target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span></a></li>
+                            <li class="list-inline-item social-media"><a
+                                    href="https://instagram.com/gotennissystem?igshid=1waksnkd1kttd" target="_blank"><i
+                                        class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span></a></li>
+                            <li class="list-inline-item social-media"><a href="https://www.youtube.com/"
+                                    target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">YouTube</span></a></li>
+                            <li class="list-inline-item social-media"><a href="tel:07000000000" target="_blank"><i
+                                        class="fab fa-whatsapp" aria-hidden="true"></i>
+                                    <span class="sr-only">Whatsapp</span></a></li>
+                        </ul>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none" />
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 support">
+                        <p class="supporting-p">Supporting:</p>
+                        <div class="supporting-logos">
+                            <a href="https://www.dogstrust.org.uk/" target="_blank"><img
+                                    class="list-inline-item dogs-trust" src="assets/images/dogs-trust.png" height="20"
+                                    width="60" alt="Dogs Trust logo"></a>
+                            <a href="https://www.chesterfieldanimalrescue.org.uk/" target="_blank"><img
+                                    class="list-inline-item chesterfield-rescue"
+                                    src="assets/images/chesterfield-rescue.png" height="30" width="70"
+                                    alt="Chesterfield Animal Rescue logo"></a>
+                        </div>
                     </div>
                 </div>
             </div>
