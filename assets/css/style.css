@@ -524,9 +524,7 @@ p.contact {
   margin-right: 18px;
 }
 
-/* ------------------------------------------- Media Queries */
-
-/* ------------------------------------------- Footer */
+/* ------------------------------------------- Media Queries - Footer */
 
 @media (max-width: 992px) {
   .sponsors {
@@ -582,7 +580,7 @@ p.contact {
   }
 }
 
-/* ------------------------------------------- Upload and Contact Form */
+/* ------------------------------------------- Media Queries - Upload and Contact Form */
 
 @media (max-width: 768px) {
   h4.submit-heading {
